@@ -1,0 +1,104 @@
+/* Estilos para simular CMD (Command Prompt) */
+
+.cmd-console {
+    background-color: #000000;
+    color: #c0c0c0;
+    font-family: 'Consolas', 'Monaco', 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace;
+    font-size: 14px;
+    line-height: 1.4;
+    padding: 1rem;
+    border-radius: 4px;
+    border: 1px solid #333333;
+    min-height: 300px;
+    overflow-y: auto;
+    white-space: pre;
+    word-break: normal;
+}
+
+.cmd-prompt {
+    color: #c0c0c0;
+    font-weight: bold;
+}
+
+.cmd-input {
+    background-color: #000000 !important;
+    color: #c0c0c0 !important;
+    font-family: 'Consolas', 'Monaco', 'Lucida Console', monospace !important;
+    font-size: 14px !important;
+    border: 1px solid #333333 !important;
+    border-radius: 4px !important;
+    padding: 0.5rem !important;
+}
+
+.cmd-input:focus {
+    border-color: #ffffff !important;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.3) !important;
+}
+
+.cmd-output {
+    margin: 0;
+    padding: 0;
+    white-space: pre;
+    font-family: inherit;
+    background: transparent;
+    border: none;
+    color: inherit;
+}
+
+.cmd-error {
+    margin: 0;
+    padding: 0;
+    white-space: pre;
+    font-family: inherit;
+    background: transparent;
+    border: none;
+    color: #ff6b6b;
+}
+
+.cmd-success {
+    color: #51cf66;
+}
+
+.cmd-warning {
+    color: #ffd43b;
+}
+
+.cmd-directory {
+    color: #74c0fc;
+}
+
+.cmd-file {
+    color: #c0c0c0;
+}
+
+.cmd-executable {
+    color: #51cf66;
+}
+
+/* Cursor parpadeante */
+.cmd-cursor {
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0%, 50% { opacity: 1; }
+    51%, 100% { opacity: 0; }
+}
+
+/* Scrollbar personalizado para CMD */
+.cmd-console::-webkit-scrollbar {
+    width: 8px;
+}
+
+.cmd-console::-webkit-scrollbar-track {
+    background: #1a1a1a;
+}
+
+.cmd-console::-webkit-scrollbar-thumb {
+    background: #444444;
+    border-radius: 4px;
+}
+
+.cmd-console::-webkit-scrollbar-thumb:hover {
+    background: #666666;
+}

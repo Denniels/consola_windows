@@ -1,0 +1,104 @@
+/*
+ * CSS Anti-Translation - Configuración avanzada para prevenir traducción automática
+ * Este archivo contiene reglas específicas para proteger comandos técnicos
+ */
+
+/* Configuración global anti-traducción */
+html {
+    translate: no;
+    -webkit-translate: no;
+    -moz-translate: no;
+    -ms-translate: no;
+}
+
+/* Permitir traducción solo para contenido específico */
+.translatable,
+.stMarkdown p,
+.stMarkdown h1, .stMarkdown h2, .stMarkdown h3, .stMarkdown h4, .stMarkdown h5, .stMarkdown h6,
+.stSubheader,
+.stText,
+.stInfo,
+.stSuccess,
+.stWarning,
+.stError {
+    translate: yes !important;
+    -webkit-translate: yes !important;
+}
+
+/* Protección absoluta para elementos técnicos */
+code, pre, kbd, samp,
+.stCode, .stCodeBlock,
+.command-text, .notranslate,
+.quiz-command, .protected-command,
+[data-testid="stCode"],
+[data-testid="stCodeBlock"] {
+    translate: no !important;
+    -webkit-translate: no !important;
+    -moz-translate: no !important;
+    -ms-translate: no !important;
+    font-family: 'Consolas', 'Courier New', 'Monaco', monospace !important;
+}
+
+/* Protección para quiz y elementos interactivos */
+.stRadio label,
+.stRadio > div,
+.stButton button,
+[data-testid="stRadio"],
+[data-testid="stRadio"] > div,
+[data-testid="stRadio"] label,
+.quiz-container,
+.quiz-container * {
+    translate: no !important;
+    -webkit-translate: no !important;
+}
+
+/* Estilos específicos para comandos protegidos */
+.protected-command {
+    background-color: #f8f9fa !important;
+    border: 1px solid #dee2e6 !important;
+    border-radius: 6px !important;
+    padding: 12px !important;
+    margin: 8px 0 !important;
+    display: block !important;
+    translate: no !important;
+    -webkit-translate: no !important;
+    -moz-translate: no !important;
+    -ms-translate: no !important;
+}
+
+.protected-command code {
+    font-family: 'Consolas', 'Courier New', monospace !important;
+    font-size: 14px !important;
+    color: #212529 !important;
+    background: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    translate: no !important;
+    -webkit-translate: no !important;
+}
+
+/* Protección para simuladores de consola */
+.console-simulator,
+.console-simulator * {
+    translate: no !important;
+    -webkit-translate: no !important;
+    font-family: 'Consolas', 'Courier New', monospace !important;
+}
+
+/* Metadatos anti-traducción */
+.no-translate,
+[translate="no"],
+[data-translate="no"],
+[data-google="notranslate"] {
+    translate: no !important;
+    -webkit-translate: no !important;
+    -moz-translate: no !important;
+    -ms-translate: no !important;
+}
+
+/* Forzar font monospace para elementos técnicos */
+.technical-content {
+    font-family: 'Consolas', 'Courier New', 'Monaco', 'Liberation Mono', monospace !important;
+    translate: no !important;
+    -webkit-translate: no !important;
+}

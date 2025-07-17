@@ -1,0 +1,176 @@
+/* Estilos globales para la aplicación */
+
+/* Fuentes y configuración base */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+:root {
+    --primary-blue: #1e3a8a;
+    --secondary-blue: #3b82f6;
+    --accent-green: #10b981;
+    --text-dark: #1f2937;
+    --text-light: #6b7280;
+    --bg-light: #f9fafb;
+    --bg-white: #ffffff;
+    --border-gray: #e5e7eb;
+    --console-bg: #000000;
+    --console-text: #ffffff;
+    --warning-orange: #f59e0b;
+    --error-red: #ef4444;
+}
+
+/* Configuración general del cuerpo */
+.main .block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    max-width: 1200px;
+}
+
+/* Estilos para banners */
+.banner {
+    background: linear-gradient(135deg, var(--primary-blue), var(--secondary-blue));
+    color: white;
+    padding: 2rem;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.banner h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.banner p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    margin-bottom: 0;
+}
+
+/* Estilos para tarjetas */
+.card {
+    background: var(--bg-white);
+    border: 1px solid var(--border-gray);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px -1px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    color: var(--primary-blue);
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+/* Estilos para botones */
+.stButton > button {
+    background: var(--secondary-blue);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 0.75rem 1.5rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.stButton > button:hover {
+    background: var(--primary-blue);
+    transform: translateY(-1px);
+}
+
+/* Estilos para elementos de progreso */
+.progress-bar {
+    background: var(--bg-light);
+    border-radius: 8px;
+    overflow: hidden;
+    height: 8px;
+    margin: 1rem 0;
+}
+
+.progress-fill {
+    background: linear-gradient(90deg, var(--accent-green), var(--secondary-blue));
+    height: 100%;
+    transition: width 0.3s ease;
+}
+
+/* Estilos para navegación */
+.nav-menu {
+    background: var(--bg-white);
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.nav-item {
+    display: inline-block;
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    transition: background 0.2s ease;
+}
+
+.nav-item:hover {
+    background: var(--bg-light);
+}
+
+.nav-item.active {
+    background: var(--secondary-blue);
+    color: white;
+}
+
+/* Estilos para alertas y mensajes */
+.alert {
+    padding: 1rem;
+    border-radius: 6px;
+    margin: 1rem 0;
+    font-weight: 500;
+}
+
+.alert-info {
+    background: #dbeafe;
+    color: var(--primary-blue);
+    border-left: 4px solid var(--secondary-blue);
+}
+
+.alert-success {
+    background: #d1fae5;
+    color: #065f46;
+    border-left: 4px solid var(--accent-green);
+}
+
+.alert-warning {
+    background: #fef3c7;
+    color: #92400e;
+    border-left: 4px solid var(--warning-orange);
+}
+
+.alert-error {
+    background: #fee2e2;
+    color: #991b1b;
+    border-left: 4px solid var(--error-red);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .banner h1 {
+        font-size: 2rem;
+    }
+    
+    .banner p {
+        font-size: 1rem;
+    }
+    
+    .card {
+        padding: 1rem;
+    }
+}
