@@ -5871,6 +5871,48 @@
         "time_spent": 0,
         "last_accessed": "2025-07-21T00:13:13.464838"
       }
+    },
+    "user_20250721_32b42057": {
+      "01_intro": {
+        "sections_completed": [
+          "introduction_completed"
+        ],
+        "quiz_scores": [],
+        "time_spent": 0,
+        "last_accessed": "2025-07-21T01:49:21.325131"
+      },
+      "02_cmd_basics": {
+        "sections_completed": [
+          "cmd_basics_viewed"
+        ],
+        "quiz_scores": [],
+        "time_spent": 0,
+        "last_accessed": "2025-07-21T01:49:21.728439"
+      },
+      "09_summary": {
+        "sections_completed": [
+          "viewed"
+        ],
+        "quiz_scores": [],
+        "time_spent": 0,
+        "last_accessed": "2025-07-21T01:49:24.553278"
+      },
+      "08_evaluations": {
+        "sections_completed": [
+          "evaluations_viewed"
+        ],
+        "quiz_scores": [],
+        "time_spent": 0,
+        "last_accessed": "2025-07-21T01:49:24.282639"
+      },
+      "03_powershell_basics": {
+        "sections_completed": [
+          "powershell_basics_viewed"
+        ],
+        "quiz_scores": [],
+        "time_spent": 0,
+        "last_accessed": "2025-07-21T01:49:23.012568"
+      }
     }
   },
   "module_completion": {
@@ -9254,6 +9296,33 @@
       },
       {
         "timestamp": "2025-07-21T00:08:37.660576",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T01:48:56.448513",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T01:49:02.028548",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T01:49:21.695806",
         "success": true,
         "metadata": {
           "exercise_id": 0,
@@ -14954,6 +15023,24 @@
           "console_type": "cmd",
           "timestamp": ""
         }
+      },
+      {
+        "timestamp": "2025-07-21T01:49:01.753977",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T01:49:22.349178",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
       }
     ],
     "ver": [
@@ -19244,6 +19331,15 @@
           "console_type": "powershell",
           "timestamp": ""
         }
+      },
+      {
+        "timestamp": "2025-07-21T01:49:23.987651",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
       }
     ],
     "Get-Help": [
@@ -22497,6 +22593,15 @@
           "console_type": "powershell",
           "timestamp": ""
         }
+      },
+      {
+        "timestamp": "2025-07-21T01:49:22.979568",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
       }
     ],
     "Get-Location": [
@@ -24505,6 +24610,24 @@
         "success": true,
         "metadata": {
           "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T01:48:56.794768",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T01:49:23.342608",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
           "console_type": "powershell",
           "timestamp": ""
         }
@@ -26551,6 +26674,24 @@
       },
       {
         "timestamp": "2025-07-21T00:01:45.147517",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T01:49:01.316389",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T01:49:23.662141",
         "success": true,
         "metadata": {
           "exercise_id": 0,
