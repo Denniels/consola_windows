@@ -10,7 +10,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'utils'))
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'components'))
 
 from utils.progress_tracker import create_section_header
-from components.ui_components import create_tip_card
+from components.ui_helpers import create_tip_card
 
 def render_page():
     create_section_header(

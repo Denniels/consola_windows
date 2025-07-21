@@ -1,0 +1,12 @@
+# Ignorar archivos sensibles y temporales
+.env
+*.pyc
+__pycache__/
+*.log
+# Ignorar datos de usuario
+/data/*.json
+# Ignorar archivos de configuración local
+*.sqlite3
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db

@@ -295,9 +295,9 @@ def render_quiz_section():
     quiz_questions = [
         {
             "pregunta": "¿Cuál es la estructura básica de los cmdlets en PowerShell?",
-            "opciones": ["Sustantivo-Verbo", "Verbo-Sustantivo", "Comando-Argumento", "Función-Parámetro"],
-            "respuesta_correcta": "Verbo-Sustantivo",
-            "explicacion": "PowerShell usa la sintaxis Verbo-Sustantivo, como Get-Process, Set-Location, etc."
+            "opciones": ["Get-Process", "Start-Service", "Stop-Computer", "New-Item"],
+            "respuesta_correcta": "Get-Process",
+            "explicacion": "Los cmdlets de PowerShell siguen la estructura Verb-Noun (Verbo-Sustantivo). Get-Process es un ejemplo perfecto: 'Get' es el verbo y 'Process' es el sustantivo. Todos siguen este patrón: Start-Service, Stop-Computer, New-Item, etc."
         },
         {
             "pregunta": "¿Qué cmdlet usas para ver el contenido de un directorio?",

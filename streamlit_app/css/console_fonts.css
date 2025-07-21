@@ -1,0 +1,35 @@
+/* Fuentes auténticas para simuladores de consola */
+
+/* Importar fuente Consolas-like desde Google Fonts como fallback */
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+/* Variables de fuente para consolas */
+:root {
+    --console-font-family: 'Consolas', 'Lucida Console', 'Monaco', 'Inconsolata', 'Roboto Mono', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace;
+    --console-font-size: 12px;
+    --console-line-height: 1.2;
+    --console-letter-spacing: 0.5px;
+}
+
+/* Clases utilitarias para fuentes de consola */
+.console-font {
+    font-family: var(--console-font-family);
+    font-size: var(--console-font-size);
+    line-height: var(--console-line-height);
+    letter-spacing: var(--console-letter-spacing);
+    font-weight: normal;
+}
+
+.console-font-bold {
+    font-family: var(--console-font-family);
+    font-size: var(--console-font-size);
+    line-height: var(--console-line-height);
+    letter-spacing: var(--console-letter-spacing);
+    font-weight: bold;
+}
+
+/* Asegurar que todos los elementos de código usen fuentes monoespaciadas */
+code, pre, .stCode {
+    font-family: var(--console-font-family) !important;
+}

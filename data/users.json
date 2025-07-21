@@ -1,97 +1,88 @@
 {
   "users": {
-    "user_20250717_131616": {
+    "user_20250720_1ccba69e": {
       "name": "Daniel",
       "lastname": "Mardones",
       "email": "d.mardones.s@gmail.com",
-      "registration_date": "2025-07-17T13:19:32.242213",
+      "registration_date": "2025-07-20T22:39:13.879122",
       "certificates_sent": []
     },
-    "user_20250717_132849": {
+    "user_20250720_e6e77c7c": {
       "name": "Daniel",
       "lastname": "Mardones",
       "email": "d.mardones.s@gmail.com",
-      "registration_date": "2025-07-17T13:28:54.495060",
+      "registration_date": "2025-07-20T22:46:01.468332",
       "certificates_sent": []
     },
-    "user_20250717_133810": {
+    "user_20250720_a63ad601": {
       "name": "Daniel",
       "lastname": "Mardones",
       "email": "d.mardones.s@gmail.com",
-      "registration_date": "2025-07-17T13:38:18.384457",
+      "registration_date": "2025-07-20T22:52:00.528674",
       "certificates_sent": []
     },
-    "user_20250717_142937": {
+    "user_20250720_9e077f75": {
       "name": "Daniel",
       "lastname": "Mardones",
       "email": "d.mardones.s@gmail.com",
-      "registration_date": "2025-07-17T14:29:48.260527",
+      "registration_date": "2025-07-20T23:21:41.577196",
       "certificates_sent": []
     },
-    "user_20250717_150200": {
+    "user_20250720_f1b58dd0": {
       "name": "Daniel",
       "lastname": "Mardones",
       "email": "d.mardones.s@gmail.com",
-      "registration_date": "2025-07-17T15:02:08.466411",
+      "registration_date": "2025-07-20T23:24:51.798759",
       "certificates_sent": []
     },
-    "user_20250717_151509": {
+    "user_20250720_0c252216": {
       "name": "Daniel",
       "lastname": "Mardones",
       "email": "d.mardones.s@gmail.com",
-      "registration_date": "2025-07-17T15:15:18.828881",
+      "registration_date": "2025-07-20T23:27:15.006662",
       "certificates_sent": []
     },
-    "user_20250717_153114": {
+    "user_20250720_b6b3ac24": {
       "name": "Daniel",
       "lastname": "Mardones",
       "email": "d.mardones.s@gmail.com",
-      "registration_date": "2025-07-17T15:34:00.047961",
+      "registration_date": "2025-07-20T23:28:50.832391",
       "certificates_sent": []
     },
-    "user_20250717_154046": {
+    "user_20250720_ee1bde7d": {
       "name": "Daniel",
       "lastname": "Mardones",
       "email": "d.mardones.s@gmail.com",
-      "registration_date": "2025-07-17T15:46:43.210671",
+      "registration_date": "2025-07-20T23:31:15.909663",
       "certificates_sent": []
     },
-    "user_20250717_155107": {
+    "user_20250720_ee551494": {
       "name": "Daniel",
       "lastname": "Mardones",
       "email": "d.mardones.s@gmail.com",
-      "registration_date": "2025-07-17T15:51:17.165977",
+      "registration_date": "2025-07-20T23:33:30.644505",
       "certificates_sent": []
     },
-    "user_20250717_155411": {
+    "user_20250720_f5334cce": {
       "name": "Daniel",
       "lastname": "Mardones",
       "email": "d.mardones.s@gmail.com",
-      "registration_date": "2025-07-17T15:54:18.760845",
+      "registration_date": "2025-07-20T23:41:48.150119",
       "certificates_sent": []
     },
-    "user_20250717_155447": {
+    "user_20250720_c394e3db": {
       "name": "Daniel",
       "lastname": "Mardones",
       "email": "d.mardones.s@gmail.com",
-      "registration_date": "2025-07-17T15:55:19.723390",
+      "registration_date": "2025-07-20T23:58:56.729055",
       "certificates_sent": []
     },
-    "user_20250717_b4dcdbfb": {
+    "user_20250721_5f5c9666": {
       "name": "Daniel",
       "lastname": "Mardones",
       "email": "d.mardones.s@gmail.com",
-      "registration_date": "2025-07-17T15:58:22.916608",
-      "certificates_sent": []
-    },
-    "user_20250717_0a5cedf6": {
-      "name": "Daniel",
-      "lastname": "Mardones",
-      "email": "d.mardones.s@gmail.com",
-      "registration_date": "2025-07-17T16:21:59.030157",
+      "registration_date": "2025-07-21T00:06:52.217985",
       "certificates_sent": []
     }
-  },
-  "sessions": {},
-  "last_updated": null
+  }
 }

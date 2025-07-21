@@ -29,8 +29,10 @@ def render_page():
     
     # Mostrar progreso del usuario
     if 'progress_tracker' in st.session_state:
-        progress_card = ProgressCard(st.session_state.progress_tracker)
-        progress_card.render()
+        progress_data = {
+            'sections': st.session_state.progress_tracker.progress_data.get('user_progress', {}).get(st.session_state.progress_tracker.get_user_id(), {})
+        }
+        ProgressCard.render(progress_data)
     
     # Pestañas para diferentes tipos de evaluación
     tab1, tab2, tab3, tab4 = st.tabs(["🎯 Evaluación General", "⚫ Quiz CMD", "🔵 Quiz PowerShell", "🏆 Certificado"])

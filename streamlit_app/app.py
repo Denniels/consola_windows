@@ -12,7 +12,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), 'utils'))
 sys.path.append(os.path.join(os.path.dirname(__file__), 'components'))
 
 from progress_tracker import ProgressTracker, NavigationHelper, create_section_header
-from ui_components import ProgressCard
+from components.ui_components import ProgressCard
 from user_manager import UserManager, check_user_registration
 
 def load_css():
@@ -184,8 +184,10 @@ def render_placeholder_page(page_name: str):
     
     # Mostrar progreso si está disponible
     if 'progress_tracker' in st.session_state:
-        progress_card = ProgressCard(st.session_state.progress_tracker)
-        progress_card.render()
+        progress_data = {
+            'sections': st.session_state.progress_tracker.progress_data.get('user_progress', {}).get(st.session_state.progress_tracker.get_user_id(), {})
+        }
+        ProgressCard.render(progress_data)
 
 def run_app():
     """Función principal que ejecuta la aplicación"""

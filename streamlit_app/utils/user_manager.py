@@ -48,28 +48,30 @@ class UserManager:
         try:
             base_dir = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
             file_path = os.path.join(base_dir, self.data_file)
-            
             os.makedirs(os.path.dirname(file_path), exist_ok=True)
-            
             with open(file_path, 'w', encoding='utf-8') as f:
                 json.dump(self.users_data, f, indent=2, ensure_ascii=False)
+            return True
         except Exception as e:
             st.error(f"Error guardando datos de usuarios: {e}")
+            return False
     
     def register_user(self, user_id: str, name: str, lastname: str, email: str):
         """Registra un nuevo usuario"""
-        if "users" not in self.users_data:
-            self.users_data["users"] = {}
-        
-        self.users_data["users"][user_id] = {
-            "name": name,
-            "lastname": lastname,
-            "email": email,
-            "registration_date": datetime.now().isoformat(),
-            "certificates_sent": []
-        }
-        
-        self._save_users_data()
+        try:
+            if "users" not in self.users_data:
+                self.users_data["users"] = {}
+            self.users_data["users"][user_id] = {
+                "name": name,
+                "lastname": lastname,
+                "email": email,
+                "registration_date": datetime.now().isoformat(),
+                "certificates_sent": []
+            }
+            return self._save_users_data()
+        except Exception as e:
+            st.error(f"Error registrando usuario: {e}")
+            return False
     
     def get_user_info(self, user_id: str) -> Optional[Dict]:
         """Obtiene información de un usuario"""
@@ -359,13 +361,16 @@ def show_registration_form():
                     # Obtener ID del usuario desde progress_tracker
                     if 'progress_tracker' in st.session_state:
                         user_id = st.session_state.progress_tracker.get_user_id()
-                        
-                        if st.session_state.user_manager.register_user(user_id, name, lastname, email):
+                        # Si el usuario ya está registrado, no mostrar el formulario
+                        if st.session_state.user_manager.is_user_registered(user_id):
+                            st.success(f"¡Ya estás registrado, {name}!")
+                            st.rerun()
+                        elif st.session_state.user_manager.register_user(user_id, name, lastname, email):
                             st.success(f"✅ ¡Registro exitoso! Bienvenido/a {name} {lastname}")
                             st.balloons()
                             st.rerun()
                         else:
-                            st.error("❌ Error en el registro. Intenta nuevamente.")
+                            st.error("❌ Error en el registro. Verifica permisos de escritura o formato de datos.")
                     else:
                         st.error("❌ Error: Sistema de progreso no disponible.")
                 else:

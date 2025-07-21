@@ -1,177 +1,228 @@
-/* Estilos para simular PowerShell */
+/* Estilos para simular PowerShell - Colores Auténticos de Windows PowerShell */
 
 .ps-console {
-    background-color: #012456;
-    color: #ffffff;
-    font-family: 'Consolas', 'Monaco', 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace;
-    font-size: 14px;
-    line-height: 1.4;
-    padding: 1rem;
-    border-radius: 4px;
-    border: 1px solid #1e3a8a;
-    min-height: 300px;
+    background-color: #012456; /* Azul oscuro auténtico de PowerShell */
+    color: #ffffff; /* Blanco puro para texto normal */
+    font-family: 'Consolas', 'Lucida Console', 'Monaco', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace;
+    font-size: 12px; /* Tamaño similar al PowerShell real */
+    font-weight: normal;
+    line-height: 1.2; /* Interlineado compacto como PowerShell real */
+    padding: 8px 12px; /* Padding similar al PowerShell real */
+    border-radius: 0px; /* Sin bordes redondeados, como PowerShell real */
+    border: 2px solid #1e3a8a; /* Borde azul más oscuro */
+    min-height: 350px;
+    max-height: 500px;
     overflow-y: auto;
-    white-space: pre;
+    white-space: pre-wrap;
     word-break: normal;
+    box-shadow: inset 0 0 10px rgba(1,36,86,0.7); /* Sombra interior azul */
 }
 
+/* Prompt específico de PowerShell */
 .ps-prompt {
-    color: #ffffff;
-    font-weight: bold;
+    color: #ffffff; /* Blanco para el prompt */
+    font-weight: normal;
+    font-family: inherit;
 }
 
+/* Path del directorio en PowerShell */
 .ps-path {
-    color: #74c0fc;
+    color: #00ffff; /* Cyan brillante para el path, como PowerShell real */
+    font-weight: normal;
 }
 
+/* Campo de entrada de comandos */
 .ps-input {
     background-color: #012456 !important;
     color: #ffffff !important;
-    font-family: 'Consolas', 'Monaco', 'Lucida Console', monospace !important;
-    font-size: 14px !important;
+    font-family: 'Consolas', 'Lucida Console', 'Monaco', monospace !important;
+    font-size: 12px !important;
+    font-weight: normal !important;
     border: 1px solid #1e3a8a !important;
-    border-radius: 4px !important;
-    padding: 0.5rem !important;
+    border-radius: 0px !important;
+    padding: 4px 8px !important;
+    line-height: 1.2 !important;
 }
 
+/* Focus en el input */
 .ps-input:focus {
-    border-color: #3b82f6 !important;
-    box-shadow: 0 0 5px rgba(59, 130, 246, 0.5) !important;
+    border-color: #00ffff !important;
+    box-shadow: 0 0 3px rgba(0, 255, 255, 0.5) !important;
+    outline: none !important;
 }
 
+/* Salida normal de comandos */
 .ps-output {
     margin: 0;
     padding: 0;
-    white-space: pre;
+    white-space: pre-wrap;
     font-family: inherit;
     background: transparent;
     border: none;
-    color: inherit;
+    color: #ffffff; /* Blanco para salida normal */
+    font-size: inherit;
+    font-weight: normal;
 }
 
+/* Texto de error en PowerShell */
 .ps-error {
     margin: 0;
     padding: 0;
-    white-space: pre;
+    white-space: pre-wrap;
     font-family: inherit;
     background: transparent;
     border: none;
-    color: #ff6b6b;
+    color: #ff0000; /* Rojo puro para errores */
+    font-size: inherit;
+    font-weight: normal;
 }
 
+/* Texto de éxito */
 .ps-success {
-    color: #51cf66;
+    color: #00ff00; /* Verde brillante para éxito */
 }
 
+/* Texto de advertencia con fondo como PowerShell real */
 .ps-warning {
-    color: #ffd43b;
-    background-color: rgba(255, 212, 59, 0.1);
-    padding: 0.2rem 0.4rem;
-    border-radius: 3px;
+    color: #000000; /* Texto negro sobre fondo amarillo */
+    background-color: #ffff00; /* Fondo amarillo brillante */
+    padding: 2px 4px;
+    display: inline-block;
+    font-weight: bold;
 }
 
+/* Información general */
 .ps-info {
-    color: #74c0fc;
+    color: #00ffff; /* Cyan para información */
 }
 
+/* Texto verbose */
 .ps-verbose {
-    color: #d0bfff;
-    font-style: italic;
+    color: #ffff00; /* Amarillo para verbose */
+    font-style: normal;
 }
 
+/* Texto de debug */
 .ps-debug {
-    color: #8ce99a;
-    font-size: 12px;
+    color: #ffffff; /* Blanco para debug */
+    background-color: #808080; /* Fondo gris */
+    font-size: 11px;
+    padding: 1px 3px;
+    display: inline-block;
 }
 
+/* Headers de tablas en PowerShell */
 .ps-table-header {
-    color: #ffd43b;
+    color: #ffffff; /* Blanco para headers */
     font-weight: bold;
     text-decoration: underline;
 }
 
+/* Filas de tablas */
 .ps-table-row {
-    color: #ffffff;
+    color: #ffffff; /* Blanco para filas */
 }
 
+/* Propiedades de objetos */
 .ps-property {
-    color: #74c0fc;
+    color: #ffffff; /* Blanco para propiedades */
     font-weight: bold;
 }
 
+/* Valores de propiedades */
 .ps-value {
-    color: #ffffff;
+    color: #ffffff; /* Blanco para valores */
 }
 
+/* Tipos de datos */
 .ps-type {
-    color: #8ce99a;
+    color: #808080; /* Gris para tipos */
     font-style: italic;
+    font-size: 11px;
 }
 
+/* Cmdlets resaltados */
 .ps-cmdlet {
-    color: #ffd43b;
+    color: #ffff00; /* Amarillo para cmdlets */
     font-weight: bold;
 }
 
+/* Parámetros */
 .ps-parameter {
-    color: #d0bfff;
+    color: #00ffff; /* Cyan para parámetros */
 }
 
+/* Strings */
 .ps-string {
-    color: #8ce99a;
+    color: #00ff00; /* Verde para strings */
 }
 
+/* Números */
 .ps-number {
-    color: #ffc9c9;
+    color: #ff00ff; /* Magenta para números */
 }
 
+/* Booleanos */
 .ps-boolean {
-    color: #ff8cc8;
+    color: #ffff00; /* Amarillo para booleanos */
 }
 
-/* Cursor parpadeante para PowerShell */
+/* Operadores */
+.ps-operator {
+    color: #ffffff; /* Blanco para operadores */
+    font-weight: bold;
+}
+
+/* Pipeline */
+.ps-pipeline {
+    color: #ffffff; /* Blanco para pipeline */
+    font-weight: bold;
+}
+
+/* Cursor parpadeante auténtico de PowerShell */
 .ps-cursor {
-    animation: ps-blink 1s infinite;
+    background-color: #ffffff;
+    color: #012456;
+    animation: blink-ps 1s infinite;
+    font-weight: bold;
 }
 
-@keyframes ps-blink {
-    0%, 50% { opacity: 1; }
-    51%, 100% { opacity: 0; }
+@keyframes blink-ps {
+    0%, 50% { 
+        background-color: #ffffff;
+        color: #012456;
+    }
+    51%, 100% { 
+        background-color: transparent;
+        color: #ffffff;
+    }
 }
 
-/* Scrollbar personalizado para PowerShell */
+/* Scrollbar personalizada para PowerShell */
 .ps-console::-webkit-scrollbar {
-    width: 8px;
-}
-
-.ps-console::-webkit-scrollbar-track {
-    background: #001f3f;
+    width: 16px;
+    background-color: #001f3f;
 }
 
 .ps-console::-webkit-scrollbar-thumb {
-    background: #1e3a8a;
-    border-radius: 4px;
+    background-color: #1e3a8a;
+    border: 1px solid #012456;
 }
 
 .ps-console::-webkit-scrollbar-thumb:hover {
-    background: #3b82f6;
+    background-color: #3b82f6;
 }
 
-/* Estilos para output específico de PowerShell */
+/* Contenedor de objetos PowerShell */
 .ps-object {
-    border: 1px solid #3b82f6;
-    border-radius: 4px;
-    padding: 0.5rem;
-    margin: 0.5rem 0;
-    background-color: rgba(59, 130, 246, 0.05);
+    border-left: 3px solid #00ffff;
+    padding-left: 8px;
+    margin: 4px 0;
+    background-color: rgba(0, 255, 255, 0.05);
 }
 
-.ps-pipeline {
-    color: #ff8cc8;
-    font-weight: bold;
-}
-
-.ps-operator {
-    color: #ffd43b;
-    font-weight: bold;
+/* Información del sistema PowerShell */
+.ps-system-info {
+    color: #ffffff; /* Blanco para info del sistema */
+    font-style: normal;
 }

@@ -9,3 +9,9 @@ reportlab>=4.0.0
 
 # Para mejores fuentes y manejo de imágenes en PDF
 Pillow>=10.0.0
+
+# Para manejo de variables de entorno
+python-dotenv>=1.0.0
+
+# Para envío de correos (librería estándar, no requiere instalación)
+# smtplib

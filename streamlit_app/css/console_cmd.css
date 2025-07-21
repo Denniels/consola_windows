@@ -1,88 +1,143 @@
-/* Estilos para simular CMD (Command Prompt) */
+/* Estilos para simular CMD (Command Prompt) - Colores Auténticos de Windows */
 
 .cmd-console {
-    background-color: #000000;
-    color: #c0c0c0;
-    font-family: 'Consolas', 'Monaco', 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace;
-    font-size: 14px;
-    line-height: 1.4;
-    padding: 1rem;
-    border-radius: 4px;
-    border: 1px solid #333333;
-    min-height: 300px;
+    background-color: #000000; /* Negro puro como CMD real */
+    color: #c0c0c0; /* Gris plata claro para texto normal */
+    font-family: 'Consolas', 'Lucida Console', 'Monaco', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace;
+    font-size: 12px; /* Tamaño más pequeño como CMD real */
+    font-weight: normal;
+    line-height: 1.2; /* Interlineado compacto como CMD real */
+    padding: 8px 12px; /* Padding similar al CMD real */
+    border-radius: 0px; /* Sin bordes redondeados, como CMD real */
+    border: 2px solid #808080; /* Borde gris como ventana de CMD */
+    min-height: 350px;
+    max-height: 500px;
     overflow-y: auto;
-    white-space: pre;
+    white-space: pre-wrap;
     word-break: normal;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.5); /* Sombra interior para profundidad */
 }
 
+/* Prompt específico de CMD */
 .cmd-prompt {
-    color: #c0c0c0;
-    font-weight: bold;
+    color: #c0c0c0; /* Mismo color que texto normal */
+    font-weight: normal;
+    font-family: inherit;
 }
 
+/* Path del directorio en CMD */
+.cmd-path {
+    color: #c0c0c0; /* Texto normal para el path */
+}
+
+/* Campo de entrada de comandos */
 .cmd-input {
     background-color: #000000 !important;
     color: #c0c0c0 !important;
-    font-family: 'Consolas', 'Monaco', 'Lucida Console', monospace !important;
-    font-size: 14px !important;
-    border: 1px solid #333333 !important;
-    border-radius: 4px !important;
-    padding: 0.5rem !important;
+    font-family: 'Consolas', 'Lucida Console', 'Monaco', monospace !important;
+    font-size: 12px !important;
+    font-weight: normal !important;
+    border: 1px solid #808080 !important;
+    border-radius: 0px !important;
+    padding: 4px 8px !important;
+    line-height: 1.2 !important;
 }
 
+/* Focus en el input */
 .cmd-input:focus {
     border-color: #ffffff !important;
-    box-shadow: 0 0 5px rgba(255, 255, 255, 0.3) !important;
+    box-shadow: 0 0 3px rgba(255, 255, 255, 0.4) !important;
+    outline: none !important;
 }
 
+/* Salida de comandos */
 .cmd-output {
     margin: 0;
     padding: 0;
-    white-space: pre;
+    white-space: pre-wrap;
     font-family: inherit;
     background: transparent;
     border: none;
-    color: inherit;
+    color: #c0c0c0; /* Texto normal para salida */
+    font-size: inherit;
+    font-weight: normal;
 }
 
+/* Texto de error en CMD */
 .cmd-error {
     margin: 0;
     padding: 0;
-    white-space: pre;
+    white-space: pre-wrap;
     font-family: inherit;
     background: transparent;
     border: none;
-    color: #ff6b6b;
+    color: #ff0000; /* Rojo puro para errores, como CMD real */
+    font-size: inherit;
+    font-weight: normal;
 }
 
+/* Texto de éxito en CMD */
 .cmd-success {
-    color: #51cf66;
+    color: #00ff00; /* Verde brillante como CMD real */
 }
 
+/* Texto de advertencia en CMD */
 .cmd-warning {
-    color: #ffd43b;
+    color: #ffff00; /* Amarillo brillante como CMD real */
 }
 
+/* Directorios en listings */
 .cmd-directory {
-    color: #74c0fc;
+    color: #00ffff; /* Cyan brillante para directorios */
 }
 
+/* Archivos normales */
 .cmd-file {
-    color: #c0c0c0;
+    color: #c0c0c0; /* Gris plata para archivos normales */
 }
 
+/* Archivos ejecutables */
 .cmd-executable {
-    color: #51cf66;
+    color: #00ff00; /* Verde para ejecutables */
 }
 
-/* Cursor parpadeante */
+/* Información del sistema */
+.cmd-system-info {
+    color: #c0c0c0; /* Texto normal para info del sistema */
+}
+
+/* Cursor parpadeante auténtico de CMD */
 .cmd-cursor {
-    animation: blink 1s infinite;
+    background-color: #c0c0c0;
+    color: #000000;
+    animation: blink-cmd 1s infinite;
+    font-weight: bold;
 }
 
-@keyframes blink {
-    0%, 50% { opacity: 1; }
-    51%, 100% { opacity: 0; }
+@keyframes blink-cmd {
+    0%, 50% { 
+        background-color: #c0c0c0;
+        color: #000000;
+    }
+    51%, 100% { 
+        background-color: transparent;
+        color: #c0c0c0;
+    }
+}
+
+/* Scrollbar personalizada para CMD */
+.cmd-console::-webkit-scrollbar {
+    width: 16px;
+    background-color: #c0c0c0;
+}
+
+.cmd-console::-webkit-scrollbar-thumb {
+    background-color: #808080;
+    border: 1px solid #404040;
+}
+
+.cmd-console::-webkit-scrollbar-thumb:hover {
+    background-color: #a0a0a0;
 }
 
 /* Scrollbar personalizado para CMD */

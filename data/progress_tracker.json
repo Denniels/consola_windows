@@ -4983,6 +4983,894 @@
         "time_spent": 0,
         "last_accessed": "2025-07-17T15:58:28.800769"
       }
+    },
+    "user_20250720_97c0228e": {
+      "01_intro": {
+        "sections_completed": [
+          "introduction_completed"
+        ],
+        "quiz_scores": [],
+        "time_spent": 0,
+        "last_accessed": "2025-07-20T22:23:48.520934"
+      }
+    },
+    "user_20250720_1ccba69e": {
+      "01_intro": {
+        "sections_completed": [
+          "introduction_completed"
+        ],
+        "quiz_scores": [],
+        "time_spent": 0,
+        "last_accessed": "2025-07-20T22:39:45.999103"
+      },
+      "02_cmd_basics": {
+        "sections_completed": [
+          "cmd_basics_viewed",
+          "quiz_completed"
+        ],
+        "quiz_scores": [
+          {
+            "score": 100,
+            "max_score": 100,
+            "percentage": 100.0,
+            "date": "2025-07-20T22:41:16.695064"
+          },
+          {
+            "score": 100,
+            "max_score": 100,
+            "percentage": 100.0,
+            "date": "2025-07-20T22:41:16.761148"
+          },
+          {
+            "score": 0,
+            "max_score": 100,
+            "percentage": 0.0,
+            "date": "2025-07-20T22:41:22.685844"
+          }
+        ],
+        "time_spent": 0,
+        "last_accessed": "2025-07-20T22:41:22.732585"
+      },
+      "03_powershell_basics": {
+        "sections_completed": [
+          "powershell_basics_viewed"
+        ],
+        "quiz_scores": [],
+        "time_spent": 0,
+        "last_accessed": "2025-07-20T22:41:22.841538"
+      }
+    },
+    "user_20250720_e6e77c7c": {
+      "01_intro": {
+        "sections_completed": [
+          "introduction_completed"
+        ],
+        "quiz_scores": [],
+        "time_spent": 0,
+        "last_accessed": "2025-07-20T22:46:27.475586"
+      },
+      "02_cmd_basics": {
+        "sections_completed": [
+          "cmd_basics_viewed",
+          "quiz_completed"
+        ],
+        "quiz_scores": [
+          {
+            "score": 100,
+            "max_score": 100,
+            "percentage": 100.0,
+            "date": "2025-07-20T22:47:04.061189"
+          },
+          {
+            "score": 100,
+            "max_score": 100,
+            "percentage": 100.0,
+            "date": "2025-07-20T22:47:04.132495"
+          },
+          {
+            "score": 0,
+            "max_score": 100,
+            "percentage": 0.0,
+            "date": "2025-07-20T22:47:06.414721"
+          }
+        ],
+        "time_spent": 0,
+        "last_accessed": "2025-07-20T22:47:06.469751"
+      },
+      "03_powershell_basics": {
+        "sections_completed": [
+          "powershell_basics_viewed"
+        ],
+        "quiz_scores": [],
+        "time_spent": 0,
+        "last_accessed": "2025-07-20T22:47:06.605414"
+      }
+    },
+    "user_20250720_a63ad601": {
+      "01_intro": {
+        "sections_completed": [
+          "introduction_completed"
+        ],
+        "quiz_scores": [],
+        "time_spent": 0,
+        "last_accessed": "2025-07-20T22:52:00.580259"
+      },
+      "02_cmd_basics": {
+        "sections_completed": [
+          "cmd_basics_viewed",
+          "quiz_completed"
+        ],
+        "quiz_scores": [
+          {
+            "score": 100,
+            "max_score": 100,
+            "percentage": 100.0,
+            "date": "2025-07-20T22:52:48.101888"
+          },
+          {
+            "score": 100,
+            "max_score": 100,
+            "percentage": 100.0,
+            "date": "2025-07-20T22:52:48.157688"
+          }
+        ],
+        "time_spent": 0,
+        "last_accessed": "2025-07-20T22:52:48.225154"
+      },
+      "03_powershell_basics": {
+        "sections_completed": [
+          "powershell_basics_viewed"
+        ],
+        "quiz_scores": [],
+        "time_spent": 0,
+        "last_accessed": "2025-07-20T22:53:25.062427"
+      }
+    },
+    "user_20250720_9e077f75": {
+      "01_intro": {
+        "sections_completed": [
+          "introduction_completed"
+        ],
+        "quiz_scores": [],
+        "time_spent": 0,
+        "last_accessed": "2025-07-20T23:21:59.261392"
+      }
+    },
+    "user_20250720_f1b58dd0": {
+      "01_intro": {
+        "sections_completed": [
+          "introduction_completed"
+        ],
+        "quiz_scores": [],
+        "time_spent": 0,
+        "last_accessed": "2025-07-20T23:25:05.049914"
+      }
+    },
+    "user_20250720_0c252216": {
+      "01_intro": {
+        "sections_completed": [
+          "introduction_completed"
+        ],
+        "quiz_scores": [],
+        "time_spent": 0,
+        "last_accessed": "2025-07-20T23:27:23.707417"
+      }
+    },
+    "user_20250720_b6b3ac24": {
+      "01_intro": {
+        "sections_completed": [
+          "introduction_completed"
+        ],
+        "quiz_scores": [],
+        "time_spent": 0,
+        "last_accessed": "2025-07-20T23:32:28.861637"
+      }
+    },
+    "user_20250720_ee1bde7d": {
+      "01_intro": {
+        "sections_completed": [
+          "introduction_completed"
+        ],
+        "quiz_scores": [],
+        "time_spent": 0,
+        "last_accessed": "2025-07-20T23:32:39.533660"
+      },
+      "02_cmd_basics": {
+        "sections_completed": [
+          "cmd_basics_viewed"
+        ],
+        "quiz_scores": [],
+        "time_spent": 0,
+        "last_accessed": "2025-07-20T23:32:09.681809"
+      },
+      "03_powershell_basics": {
+        "sections_completed": [
+          "powershell_basics_viewed"
+        ],
+        "quiz_scores": [],
+        "time_spent": 0,
+        "last_accessed": "2025-07-20T23:32:10.387036"
+      },
+      "08_evaluations": {
+        "sections_completed": [
+          "evaluations_viewed"
+        ],
+        "quiz_scores": [],
+        "time_spent": 0,
+        "last_accessed": "2025-07-20T23:32:15.763339"
+      }
+    },
+    "user_20250720_ee551494": {
+      "01_intro": {
+        "sections_completed": [
+          "introduction_completed"
+        ],
+        "quiz_scores": [],
+        "time_spent": 0,
+        "last_accessed": "2025-07-20T23:41:31.661845"
+      },
+      "02_cmd_basics": {
+        "sections_completed": [
+          "cmd_basics_viewed"
+        ],
+        "quiz_scores": [],
+        "time_spent": 0,
+        "last_accessed": "2025-07-20T23:34:00.363733"
+      },
+      "08_evaluations": {
+        "sections_completed": [
+          "evaluations_viewed"
+        ],
+        "quiz_scores": [],
+        "time_spent": 0,
+        "last_accessed": "2025-07-20T23:36:18.497458"
+      }
+    },
+    "user_20250720_f5334cce": {
+      "01_intro": {
+        "sections_completed": [
+          "introduction_completed"
+        ],
+        "quiz_scores": [],
+        "time_spent": 0,
+        "last_accessed": "2025-07-20T23:52:05.262302"
+      },
+      "02_cmd_basics": {
+        "sections_completed": [
+          "cmd_basics_viewed",
+          "quiz_completed"
+        ],
+        "quiz_scores": [
+          {
+            "score": 100,
+            "max_score": 100,
+            "percentage": 100.0,
+            "date": "2025-07-20T23:42:23.030517"
+          },
+          {
+            "score": 100,
+            "max_score": 100,
+            "percentage": 100.0,
+            "date": "2025-07-20T23:42:23.105117"
+          },
+          {
+            "score": 0,
+            "max_score": 100,
+            "percentage": 0.0,
+            "date": "2025-07-20T23:42:24.983428"
+          },
+          {
+            "score": 0,
+            "max_score": 100,
+            "percentage": 0.0,
+            "date": "2025-07-20T23:52:08.105071"
+          }
+        ],
+        "time_spent": 0,
+        "last_accessed": "2025-07-20T23:52:08.155570"
+      },
+      "03_powershell_basics": {
+        "sections_completed": [
+          "powershell_basics_viewed"
+        ],
+        "quiz_scores": [],
+        "time_spent": 0,
+        "last_accessed": "2025-07-20T23:52:24.752290"
+      }
+    },
+    "user_20250720_c394e3db": {
+      "01_intro": {
+        "sections_completed": [
+          "introduction_completed"
+        ],
+        "quiz_scores": [],
+        "time_spent": 0,
+        "last_accessed": "2025-07-20T23:59:00.639184"
+      },
+      "02_cmd_basics": {
+        "sections_completed": [
+          "cmd_basics_viewed",
+          "quiz_completed"
+        ],
+        "quiz_scores": [
+          {
+            "score": 100,
+            "max_score": 100,
+            "percentage": 100.0,
+            "date": "2025-07-20T23:59:23.388318"
+          },
+          {
+            "score": 100,
+            "max_score": 100,
+            "percentage": 100.0,
+            "date": "2025-07-20T23:59:23.464974"
+          },
+          {
+            "score": 0,
+            "max_score": 100,
+            "percentage": 0.0,
+            "date": "2025-07-20T23:59:25.528265"
+          }
+        ],
+        "time_spent": 0,
+        "last_accessed": "2025-07-20T23:59:25.579014"
+      },
+      "03_powershell_basics": {
+        "sections_completed": [
+          "powershell_basics_viewed",
+          "quiz_completed"
+        ],
+        "quiz_scores": [
+          {
+            "score": 100,
+            "max_score": 100,
+            "percentage": 100.0,
+            "date": "2025-07-21T00:00:14.845146"
+          },
+          {
+            "score": 100,
+            "max_score": 100,
+            "percentage": 100.0,
+            "date": "2025-07-21T00:00:14.917040"
+          },
+          {
+            "score": 0,
+            "max_score": 100,
+            "percentage": 0.0,
+            "date": "2025-07-21T00:00:16.829438"
+          }
+        ],
+        "time_spent": 0,
+        "last_accessed": "2025-07-21T00:00:16.894850"
+      },
+      "04_intermediate_cmd": {
+        "sections_completed": [
+          "quiz_completed"
+        ],
+        "quiz_scores": [
+          {
+            "score": 100,
+            "max_score": 100,
+            "percentage": 100.0,
+            "date": "2025-07-21T00:00:40.620352"
+          }
+        ],
+        "time_spent": 0,
+        "last_accessed": "2025-07-21T00:00:40.645349"
+      },
+      "05_intermediate_ps": {
+        "sections_completed": [
+          "quiz_completed"
+        ],
+        "quiz_scores": [
+          {
+            "score": 100,
+            "max_score": 100,
+            "percentage": 100.0,
+            "date": "2025-07-21T00:01:12.400885"
+          }
+        ],
+        "time_spent": 0,
+        "last_accessed": "2025-07-21T00:01:12.423392"
+      },
+      "06_advanced_cmd": {
+        "sections_completed": [
+          "quiz_completed"
+        ],
+        "quiz_scores": [
+          {
+            "score": 100,
+            "max_score": 100,
+            "percentage": 100.0,
+            "date": "2025-07-21T00:01:43.980832"
+          },
+          {
+            "score": 100,
+            "max_score": 100,
+            "percentage": 100.0,
+            "date": "2025-07-21T00:03:23.592239"
+          }
+        ],
+        "time_spent": 0,
+        "last_accessed": "2025-07-21T00:03:23.620242"
+      },
+      "07_advanced_ps": {
+        "sections_completed": [
+          "quiz_completed"
+        ],
+        "quiz_scores": [
+          {
+            "score": 100,
+            "max_score": 100,
+            "percentage": 100.0,
+            "date": "2025-07-21T00:02:12.689182"
+          },
+          {
+            "score": 100,
+            "max_score": 100,
+            "percentage": 100.0,
+            "date": "2025-07-21T00:03:57.177148"
+          }
+        ],
+        "time_spent": 0,
+        "last_accessed": "2025-07-21T00:03:57.204149"
+      },
+      "08_evaluations": {
+        "sections_completed": [
+          "evaluations_viewed",
+          "quiz_completed"
+        ],
+        "quiz_scores": [
+          {
+            "score": 100,
+            "max_score": 100,
+            "percentage": 100.0,
+            "date": "2025-07-21T00:02:52.839136"
+          },
+          {
+            "score": 100,
+            "max_score": 100,
+            "percentage": 100.0,
+            "date": "2025-07-21T00:02:52.886851"
+          },
+          {
+            "score": 0,
+            "max_score": 100,
+            "percentage": 0.0,
+            "date": "2025-07-21T00:03:02.590100"
+          },
+          {
+            "score": 0,
+            "max_score": 100,
+            "percentage": 0.0,
+            "date": "2025-07-21T00:03:02.660111"
+          },
+          {
+            "score": 0,
+            "max_score": 100,
+            "percentage": 0.0,
+            "date": "2025-07-21T00:03:04.027615"
+          },
+          {
+            "score": 0,
+            "max_score": 100,
+            "percentage": 0.0,
+            "date": "2025-07-21T00:03:04.097151"
+          },
+          {
+            "score": 0,
+            "max_score": 100,
+            "percentage": 0.0,
+            "date": "2025-07-21T00:03:10.951872"
+          },
+          {
+            "score": 0,
+            "max_score": 100,
+            "percentage": 0.0,
+            "date": "2025-07-21T00:03:11.022407"
+          },
+          {
+            "score": 0,
+            "max_score": 100,
+            "percentage": 0.0,
+            "date": "2025-07-21T00:03:12.111855"
+          },
+          {
+            "score": 0,
+            "max_score": 100,
+            "percentage": 0.0,
+            "date": "2025-07-21T00:03:12.196942"
+          },
+          {
+            "score": 0,
+            "max_score": 100,
+            "percentage": 0.0,
+            "date": "2025-07-21T00:03:17.154766"
+          },
+          {
+            "score": 0,
+            "max_score": 100,
+            "percentage": 0.0,
+            "date": "2025-07-21T00:03:17.234309"
+          },
+          {
+            "score": 0,
+            "max_score": 100,
+            "percentage": 0.0,
+            "date": "2025-07-21T00:03:18.203756"
+          },
+          {
+            "score": 0,
+            "max_score": 100,
+            "percentage": 0.0,
+            "date": "2025-07-21T00:03:18.273740"
+          },
+          {
+            "score": 0,
+            "max_score": 100,
+            "percentage": 0.0,
+            "date": "2025-07-21T00:03:23.475707"
+          },
+          {
+            "score": 0,
+            "max_score": 100,
+            "percentage": 0.0,
+            "date": "2025-07-21T00:03:23.560227"
+          },
+          {
+            "score": 0,
+            "max_score": 100,
+            "percentage": 0.0,
+            "date": "2025-07-21T00:03:32.935314"
+          },
+          {
+            "score": 0,
+            "max_score": 100,
+            "percentage": 0.0,
+            "date": "2025-07-21T00:03:33.052116"
+          },
+          {
+            "score": 0,
+            "max_score": 100,
+            "percentage": 0.0,
+            "date": "2025-07-21T00:03:34.351854"
+          },
+          {
+            "score": 0,
+            "max_score": 100,
+            "percentage": 0.0,
+            "date": "2025-07-21T00:03:34.496791"
+          },
+          {
+            "score": 0,
+            "max_score": 100,
+            "percentage": 0.0,
+            "date": "2025-07-21T00:03:39.015825"
+          },
+          {
+            "score": 0,
+            "max_score": 100,
+            "percentage": 0.0,
+            "date": "2025-07-21T00:03:39.110884"
+          },
+          {
+            "score": 0,
+            "max_score": 100,
+            "percentage": 0.0,
+            "date": "2025-07-21T00:03:40.627794"
+          },
+          {
+            "score": 0,
+            "max_score": 100,
+            "percentage": 0.0,
+            "date": "2025-07-21T00:03:40.747687"
+          },
+          {
+            "score": 0,
+            "max_score": 100,
+            "percentage": 0.0,
+            "date": "2025-07-21T00:03:45.604748"
+          },
+          {
+            "score": 0,
+            "max_score": 100,
+            "percentage": 0.0,
+            "date": "2025-07-21T00:03:45.705879"
+          },
+          {
+            "score": 0,
+            "max_score": 100,
+            "percentage": 0.0,
+            "date": "2025-07-21T00:03:46.862360"
+          },
+          {
+            "score": 0,
+            "max_score": 100,
+            "percentage": 0.0,
+            "date": "2025-07-21T00:03:46.965240"
+          },
+          {
+            "score": 0,
+            "max_score": 100,
+            "percentage": 0.0,
+            "date": "2025-07-21T00:03:57.014267"
+          },
+          {
+            "score": 0,
+            "max_score": 100,
+            "percentage": 0.0,
+            "date": "2025-07-21T00:03:57.112297"
+          },
+          {
+            "score": 0,
+            "max_score": 100,
+            "percentage": 0.0,
+            "date": "2025-07-21T00:05:09.944431"
+          }
+        ],
+        "time_spent": 0,
+        "last_accessed": "2025-07-21T00:05:10.058984"
+      },
+      "cmd_advanced": {
+        "sections_completed": [],
+        "quiz_scores": [
+          {
+            "score": 100,
+            "max_score": 100,
+            "percentage": 100.0,
+            "date": "2025-07-21T00:03:23.654259"
+          },
+          {
+            "score": 0,
+            "max_score": 100,
+            "percentage": 0.0,
+            "date": "2025-07-21T00:03:32.972353"
+          },
+          {
+            "score": 0,
+            "max_score": 100,
+            "percentage": 0.0,
+            "date": "2025-07-21T00:03:33.084623"
+          },
+          {
+            "score": 0,
+            "max_score": 100,
+            "percentage": 0.0,
+            "date": "2025-07-21T00:03:34.409371"
+          },
+          {
+            "score": 0,
+            "max_score": 100,
+            "percentage": 0.0,
+            "date": "2025-07-21T00:03:34.535300"
+          },
+          {
+            "score": 0,
+            "max_score": 100,
+            "percentage": 0.0,
+            "date": "2025-07-21T00:03:39.046333"
+          },
+          {
+            "score": 0,
+            "max_score": 100,
+            "percentage": 0.0,
+            "date": "2025-07-21T00:03:39.149265"
+          },
+          {
+            "score": 0,
+            "max_score": 100,
+            "percentage": 0.0,
+            "date": "2025-07-21T00:03:40.673836"
+          },
+          {
+            "score": 0,
+            "max_score": 100,
+            "percentage": 0.0,
+            "date": "2025-07-21T00:03:40.775198"
+          },
+          {
+            "score": 0,
+            "max_score": 100,
+            "percentage": 0.0,
+            "date": "2025-07-21T00:03:45.640276"
+          },
+          {
+            "score": 0,
+            "max_score": 100,
+            "percentage": 0.0,
+            "date": "2025-07-21T00:03:45.736388"
+          },
+          {
+            "score": 0,
+            "max_score": 100,
+            "percentage": 0.0,
+            "date": "2025-07-21T00:03:46.894871"
+          },
+          {
+            "score": 0,
+            "max_score": 100,
+            "percentage": 0.0,
+            "date": "2025-07-21T00:03:46.994246"
+          },
+          {
+            "score": 0,
+            "max_score": 100,
+            "percentage": 0.0,
+            "date": "2025-07-21T00:03:57.054789"
+          },
+          {
+            "score": 0,
+            "max_score": 100,
+            "percentage": 0.0,
+            "date": "2025-07-21T00:03:57.143297"
+          },
+          {
+            "score": 0,
+            "max_score": 100,
+            "percentage": 0.0,
+            "date": "2025-07-21T00:05:09.990468"
+          }
+        ],
+        "time_spent": 0,
+        "last_accessed": "2025-07-21T00:05:09.990468"
+      },
+      "powershell_advanced": {
+        "sections_completed": [],
+        "quiz_scores": [
+          {
+            "score": 100,
+            "max_score": 100,
+            "percentage": 100.0,
+            "date": "2025-07-21T00:03:57.228659"
+          },
+          {
+            "score": 0,
+            "max_score": 100,
+            "percentage": 0.0,
+            "date": "2025-07-21T00:05:10.024975"
+          }
+        ],
+        "time_spent": 0,
+        "last_accessed": "2025-07-21T00:05:10.024975"
+      },
+      "09_summary": {
+        "sections_completed": [
+          "viewed"
+        ],
+        "quiz_scores": [],
+        "time_spent": 0,
+        "last_accessed": "2025-07-21T00:05:09.849865"
+      }
+    },
+    "user_20250721_5f5c9666": {
+      "01_intro": {
+        "sections_completed": [
+          "introduction_completed"
+        ],
+        "quiz_scores": [],
+        "time_spent": 0,
+        "last_accessed": "2025-07-21T00:13:44.589683"
+      },
+      "09_summary": {
+        "sections_completed": [
+          "viewed"
+        ],
+        "quiz_scores": [],
+        "time_spent": 0,
+        "last_accessed": "2025-07-21T00:13:27.224334"
+      },
+      "08_evaluations": {
+        "sections_completed": [
+          "evaluations_viewed"
+        ],
+        "quiz_scores": [],
+        "time_spent": 0,
+        "last_accessed": "2025-07-21T00:13:52.819307"
+      },
+      "02_cmd_basics": {
+        "sections_completed": [
+          "cmd_basics_viewed",
+          "quiz_completed"
+        ],
+        "quiz_scores": [
+          {
+            "score": 100,
+            "max_score": 100,
+            "percentage": 100.0,
+            "date": "2025-07-21T00:09:45.532396"
+          },
+          {
+            "score": 100,
+            "max_score": 100,
+            "percentage": 100.0,
+            "date": "2025-07-21T00:09:45.591519"
+          }
+        ],
+        "time_spent": 0,
+        "last_accessed": "2025-07-21T00:09:45.645016"
+      },
+      "03_powershell_basics": {
+        "sections_completed": [
+          "powershell_basics_viewed",
+          "quiz_completed"
+        ],
+        "quiz_scores": [
+          {
+            "score": 100,
+            "max_score": 100,
+            "percentage": 100.0,
+            "date": "2025-07-21T00:10:50.760658"
+          },
+          {
+            "score": 100,
+            "max_score": 100,
+            "percentage": 100.0,
+            "date": "2025-07-21T00:10:50.852680"
+          }
+        ],
+        "time_spent": 0,
+        "last_accessed": "2025-07-21T00:10:50.919421"
+      },
+      "04_intermediate_cmd": {
+        "sections_completed": [
+          "quiz_completed"
+        ],
+        "quiz_scores": [
+          {
+            "score": 100,
+            "max_score": 100,
+            "percentage": 100.0,
+            "date": "2025-07-21T00:11:43.520769"
+          }
+        ],
+        "time_spent": 0,
+        "last_accessed": "2025-07-21T00:11:43.544784"
+      },
+      "05_intermediate_ps": {
+        "sections_completed": [
+          "quiz_completed"
+        ],
+        "quiz_scores": [
+          {
+            "score": 100,
+            "max_score": 100,
+            "percentage": 100.0,
+            "date": "2025-07-21T00:12:18.906751"
+          }
+        ],
+        "time_spent": 0,
+        "last_accessed": "2025-07-21T00:12:18.932881"
+      },
+      "06_advanced_cmd": {
+        "sections_completed": [
+          "quiz_completed"
+        ],
+        "quiz_scores": [
+          {
+            "score": 100,
+            "max_score": 100,
+            "percentage": 100.0,
+            "date": "2025-07-21T00:12:53.028013"
+          }
+        ],
+        "time_spent": 0,
+        "last_accessed": "2025-07-21T00:12:53.055674"
+      },
+      "07_advanced_ps": {
+        "sections_completed": [
+          "quiz_completed"
+        ],
+        "quiz_scores": [
+          {
+            "score": 100,
+            "max_score": 100,
+            "percentage": 100.0,
+            "date": "2025-07-21T00:13:13.432178"
+          }
+        ],
+        "time_spent": 0,
+        "last_accessed": "2025-07-21T00:13:13.464838"
+      }
     }
   },
   "module_completion": {
@@ -7832,6 +8720,546 @@
           "console_type": "cmd",
           "timestamp": ""
         }
+      },
+      {
+        "timestamp": "2025-07-20T22:39:46.090605",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:40:11.955264",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:40:12.166876",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:46:27.601991",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:46:34.291789",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:46:34.515064",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:46:40.377262",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:52:06.856608",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:52:23.314478",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:52:23.485064",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:52:26.823872",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:41:53.067483",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:42:00.880097",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:42:01.122933",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:42:05.893863",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:42:05.985051",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:42:08.956178",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:42:09.035643",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:42:10.675989",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:42:10.772530",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:42:12.083956",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:42:12.199831",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:42:14.356074",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:42:14.433795",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:42:16.064665",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:42:16.143225",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:42:19.517429",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:42:19.594453",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:42:20.948203",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:42:21.039984",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:42:22.892155",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:42:22.983342",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:42:24.941378",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:52:08.072059",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:59:00.736712",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:59:05.803609",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:59:05.875629",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:59:07.530642",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:59:07.611729",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:59:10.190022",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:59:10.266528",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:59:11.475006",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:59:11.554040",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:59:12.769435",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:59:12.843208",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:59:13.874566",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:59:13.972983",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:59:17.662701",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:59:17.733298",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:59:19.565413",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:59:19.641306",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:59:23.271679",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:59:23.355537",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:59:25.499647",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:08:06.222910",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:08:11.215003",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:08:25.900138",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:08:28.319543",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:08:37.514298",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:08:37.660576",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
       }
     ],
     "cd": [
@@ -8152,6 +9580,267 @@
       },
       {
         "timestamp": "2025-07-17T15:02:37.549954",
+        "success": true,
+        "metadata": {
+          "exercise_id": 1,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:40:20.270468",
+        "success": true,
+        "metadata": {
+          "exercise_id": 1,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:40:26.190662",
+        "success": true,
+        "metadata": {
+          "exercise_id": 1,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:40:26.388677",
+        "success": true,
+        "metadata": {
+          "exercise_id": 1,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:46:37.415763",
+        "success": true,
+        "metadata": {
+          "exercise_id": 1,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:46:40.753997",
+        "success": true,
+        "metadata": {
+          "exercise_id": 1,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:46:46.869501",
+        "success": true,
+        "metadata": {
+          "exercise_id": 1,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:46:46.996368",
+        "success": true,
+        "metadata": {
+          "exercise_id": 1,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:46:48.572658",
+        "success": true,
+        "metadata": {
+          "exercise_id": 1,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:46:48.668441",
+        "success": true,
+        "metadata": {
+          "exercise_id": 1,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:46:51.962799",
+        "success": true,
+        "metadata": {
+          "exercise_id": 1,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:46:52.073263",
+        "success": true,
+        "metadata": {
+          "exercise_id": 1,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:46:53.396006",
+        "success": true,
+        "metadata": {
+          "exercise_id": 1,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:46:53.494650",
+        "success": true,
+        "metadata": {
+          "exercise_id": 1,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:46:55.179460",
+        "success": true,
+        "metadata": {
+          "exercise_id": 1,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:46:55.276782",
+        "success": true,
+        "metadata": {
+          "exercise_id": 1,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:46:56.499687",
+        "success": true,
+        "metadata": {
+          "exercise_id": 1,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:46:56.620894",
+        "success": true,
+        "metadata": {
+          "exercise_id": 1,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:47:00.459356",
+        "success": true,
+        "metadata": {
+          "exercise_id": 1,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:47:00.562378",
+        "success": true,
+        "metadata": {
+          "exercise_id": 1,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:47:01.822063",
+        "success": true,
+        "metadata": {
+          "exercise_id": 1,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:47:01.923802",
+        "success": true,
+        "metadata": {
+          "exercise_id": 1,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:47:03.929394",
+        "success": true,
+        "metadata": {
+          "exercise_id": 1,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:47:04.030994",
+        "success": true,
+        "metadata": {
+          "exercise_id": 1,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:47:06.373188",
+        "success": true,
+        "metadata": {
+          "exercise_id": 1,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:52:25.610996",
+        "success": true,
+        "metadata": {
+          "exercise_id": 1,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:52:27.002367",
+        "success": true,
+        "metadata": {
+          "exercise_id": 1,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:08:43.202698",
+        "success": true,
+        "metadata": {
+          "exercise_id": 1,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:08:48.031482",
+        "success": true,
+        "metadata": {
+          "exercise_id": 1,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:08:48.190913",
         "success": true,
         "metadata": {
           "exercise_id": 1,
@@ -9513,6 +11202,420 @@
       },
       {
         "timestamp": "2025-07-17T15:03:05.948280",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:40:28.737172",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:40:36.896076",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:40:37.004344",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:40:38.943347",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:40:39.019223",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:40:45.538088",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:40:45.639846",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:40:49.591610",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:40:49.684500",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:40:55.665507",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:40:55.769654",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:40:57.121661",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:40:57.201190",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:41:02.499769",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:41:02.594613",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:41:04.272184",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:41:04.350298",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:41:16.534553",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:41:16.655559",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:41:22.659082",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:46:38.431868",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:52:26.319855",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:52:27.370734",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:08:52.200890",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:09:03.393272",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:09:03.533360",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:09:13.710103",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:09:18.526687",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:09:23.721182",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:09:23.784209",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:09:25.243998",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:09:25.309390",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:09:28.223792",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:09:28.289626",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:09:29.654658",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:09:29.716405",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:09:33.583850",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:09:33.648551",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:09:35.008033",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:09:35.078868",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:09:42.531385",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:09:42.599767",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:09:43.789868",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:09:43.853458",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:09:45.417005",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:09:45.501508",
         "success": true,
         "metadata": {
           "exercise_id": 2,
@@ -12356,6 +14459,501 @@
           "console_type": "cmd",
           "timestamp": ""
         }
+      },
+      {
+        "timestamp": "2025-07-20T22:46:39.806611",
+        "success": true,
+        "metadata": {
+          "exercise_id": 3,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:52:26.488559",
+        "success": true,
+        "metadata": {
+          "exercise_id": 3,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:52:27.548366",
+        "success": true,
+        "metadata": {
+          "exercise_id": 3,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:52:31.660430",
+        "success": true,
+        "metadata": {
+          "exercise_id": 3,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:52:31.740433",
+        "success": true,
+        "metadata": {
+          "exercise_id": 3,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:52:33.699690",
+        "success": true,
+        "metadata": {
+          "exercise_id": 3,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:52:33.789455",
+        "success": true,
+        "metadata": {
+          "exercise_id": 3,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:52:35.636389",
+        "success": true,
+        "metadata": {
+          "exercise_id": 3,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:52:35.720299",
+        "success": true,
+        "metadata": {
+          "exercise_id": 3,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:52:37.632116",
+        "success": true,
+        "metadata": {
+          "exercise_id": 3,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:52:37.697142",
+        "success": true,
+        "metadata": {
+          "exercise_id": 3,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:52:39.384658",
+        "success": true,
+        "metadata": {
+          "exercise_id": 3,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:52:39.486344",
+        "success": true,
+        "metadata": {
+          "exercise_id": 3,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:52:41.060172",
+        "success": true,
+        "metadata": {
+          "exercise_id": 3,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:52:41.141490",
+        "success": true,
+        "metadata": {
+          "exercise_id": 3,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:52:42.877571",
+        "success": true,
+        "metadata": {
+          "exercise_id": 3,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:52:42.946724",
+        "success": true,
+        "metadata": {
+          "exercise_id": 3,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:52:44.108796",
+        "success": true,
+        "metadata": {
+          "exercise_id": 3,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:52:44.202429",
+        "success": true,
+        "metadata": {
+          "exercise_id": 3,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:52:48.006580",
+        "success": true,
+        "metadata": {
+          "exercise_id": 3,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:52:48.072584",
+        "success": true,
+        "metadata": {
+          "exercise_id": 3,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:00:16.972281",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:00:24.478776",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:00:24.551755",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:00:25.630685",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:00:25.707504",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:00:27.473645",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:00:27.548307",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:00:28.576922",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:00:28.656023",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:00:33.146737",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:00:33.221259",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:00:34.628112",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:00:34.700769",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:00:40.503567",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:00:40.592333",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:00:42.949600",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:10:53.760983",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:11:30.380430",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:11:31.955934",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:11:32.028948",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:11:33.337138",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:11:33.424192",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:11:36.052362",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:11:36.131404",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:11:37.237151",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:11:37.319943",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:11:40.977267",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:11:41.054991",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:11:41.735468",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:11:41.863723",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:11:43.414606",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:11:43.489631",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:11:48.058053",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:11:59.002599",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
       }
     ],
     "ver": [
@@ -13861,6 +16459,24 @@
           "console_type": "cmd",
           "timestamp": ""
         }
+      },
+      {
+        "timestamp": "2025-07-20T22:46:40.176658",
+        "success": true,
+        "metadata": {
+          "exercise_id": 4,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:52:26.681897",
+        "success": true,
+        "metadata": {
+          "exercise_id": 4,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
       }
     ],
     "Write-Output": [
@@ -14226,6 +16842,15 @@
       },
       {
         "timestamp": "2025-07-17T13:21:13.281503",
+        "success": true,
+        "metadata": {
+          "exercise_id": 4,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:53:23.600667",
         "success": true,
         "metadata": {
           "exercise_id": 4,
@@ -16457,6 +19082,168 @@
           "console_type": "powershell",
           "timestamp": ""
         }
+      },
+      {
+        "timestamp": "2025-07-20T22:53:25.030481",
+        "success": true,
+        "metadata": {
+          "exercise_id": 5,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:01:45.242736",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:01:50.899561",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:01:50.971571",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:01:52.993179",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:01:53.080266",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:01:58.820903",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:01:58.888439",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:01:59.934812",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:02:00.015115",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:02:05.410013",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:02:05.484039",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:02:06.615605",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:02:06.695687",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:02:12.581742",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:02:12.657674",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:02:13.988274",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:07:23.985247",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
       }
     ],
     "Get-Help": [
@@ -17119,6 +19906,33 @@
       },
       {
         "timestamp": "2025-07-17T13:30:21.633436",
+        "success": true,
+        "metadata": {
+          "exercise_id": 3,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:53:00.095140",
+        "success": true,
+        "metadata": {
+          "exercise_id": 3,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:53:21.253178",
+        "success": true,
+        "metadata": {
+          "exercise_id": 3,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:53:21.442583",
         "success": true,
         "metadata": {
           "exercise_id": 3,
@@ -19260,6 +22074,429 @@
           "console_type": "powershell",
           "timestamp": ""
         }
+      },
+      {
+        "timestamp": "2025-07-20T23:42:25.141499",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:52:03.821801",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:52:24.720221",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:59:25.665939",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:59:33.735820",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:59:33.815267",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:59:35.820059",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:59:35.905894",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:59:44.293634",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:59:44.393819",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:59:46.205420",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:59:46.287047",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:59:54.801775",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:59:54.888513",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:59:56.021200",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:59:56.105267",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:59:57.638820",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:59:57.738351",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:59:59.043961",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T23:59:59.125500",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:00:05.285992",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:00:05.367525",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:00:06.800242",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:00:06.883496",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:00:14.739627",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:00:14.815639",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:00:16.784927",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:11:17.037367",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:11:48.141099",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:11:54.285067",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:11:58.586160",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:12:00.107107",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:12:03.397088",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:12:03.468034",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:12:05.043261",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:12:05.115454",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:12:11.008636",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:12:11.085647",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:12:12.819696",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:12:12.897878",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:12:14.734374",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:12:14.793045",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:12:15.785102",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:12:15.856481",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:12:18.800734",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:12:18.873874",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:13:21.992224",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
       }
     ],
     "Get-Location": [
@@ -19373,6 +22610,15 @@
       },
       {
         "timestamp": "2025-07-17T12:40:58.455421",
+        "success": true,
+        "metadata": {
+          "exercise_id": 1,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-20T22:47:06.568414",
         "success": true,
         "metadata": {
           "exercise_id": 1,
@@ -20875,6 +24121,393 @@
           "console_type": "powershell",
           "timestamp": ""
         }
+      },
+      {
+        "timestamp": "2025-07-20T22:41:22.809706",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:00:43.041750",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:00:46.079027",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:00:46.149050",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:00:47.754837",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:00:47.833453",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:00:57.245350",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:00:57.326905",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:00:58.405876",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:00:58.475389",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:01:04.195661",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:01:04.268708",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:01:05.377722",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:01:05.471254",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:01:12.297337",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:01:12.369887",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:01:14.787012",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:09:14.322578",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:09:49.766725",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:10:00.128573",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:10:00.296277",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:10:25.966014",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:10:26.028043",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:10:27.797557",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:10:27.875081",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:10:32.402523",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:10:32.478179",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:10:33.604029",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:10:33.685635",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:10:38.193669",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:10:38.261088",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:10:39.197225",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:10:39.262730",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:10:40.663447",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:10:40.739357",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:10:41.725764",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:10:41.826439",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:10:44.099993",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:10:44.163039",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:10:45.374917",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:10:45.446256",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:10:50.655149",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:10:50.725150",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
       }
     ],
     "set": [
@@ -21135,6 +24768,150 @@
         "success": true,
         "metadata": {
           "exercise_id": 1,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:11:55.851089",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:12:20.675933",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:12:36.327008",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:12:36.394518",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:12:37.555077",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:12:37.624671",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:12:39.498106",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:12:39.569425",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:12:40.533700",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:12:40.605209",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:12:44.042905",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:12:44.119533",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:12:45.016318",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:12:45.091710",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:12:52.927317",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:12:52.997508",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
           "console_type": "cmd",
           "timestamp": ""
         }
@@ -22636,6 +26413,150 @@
           "console_type": "cmd",
           "timestamp": ""
         }
+      },
+      {
+        "timestamp": "2025-07-21T00:01:14.877932",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:01:24.501202",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:01:24.580305",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:01:25.616743",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:01:25.691778",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:01:27.462086",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:01:27.552802",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:01:28.641641",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:01:28.723191",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:01:33.105127",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:01:33.177195",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:01:34.236837",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:01:34.315619",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:01:43.872179",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:01:43.946450",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:01:45.147517",
+        "success": true,
+        "metadata": {
+          "exercise_id": 0,
+          "console_type": "cmd",
+          "timestamp": ""
+        }
       }
     ],
     "xcopy": [
@@ -23423,6 +27344,143 @@
         "metadata": {
           "exercise_id": 1,
           "console_type": "cmd",
+          "timestamp": ""
+        }
+      }
+    ],
+    "Get-ComputerInfo": [
+      {
+        "timestamp": "2025-07-21T00:12:54.864363",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:13:01.905483",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:13:01.975534",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:13:03.152464",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:13:03.225998",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:13:06.096575",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:13:06.156077",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:13:07.004392",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:13:07.075685",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:13:08.839870",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:13:08.914683",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:13:09.766655",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:13:09.835163",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:13:13.333231",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
+          "timestamp": ""
+        }
+      },
+      {
+        "timestamp": "2025-07-21T00:13:13.400237",
+        "success": true,
+        "metadata": {
+          "exercise_id": 2,
+          "console_type": "powershell",
           "timestamp": ""
         }
       }

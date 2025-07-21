@@ -7,8 +7,11 @@ SMTP_PORT = 587
 SMTP_USE_TLS = True
 
 # Credenciales del remitente
-EMAIL_SENDER = "tu_correo@gmail.com"
-EMAIL_PASSWORD = "tu_contraseña_de_aplicación"  # Usa contraseña de aplicación para Gmail
+import os
+from dotenv import load_dotenv
+load_dotenv()
+EMAIL_SENDER = "d.mardones.s@gmail.com"
+EMAIL_PASSWORD = os.getenv("EMAIL_APP_PASSWORD")  # Se lee desde variable de entorno para mayor seguridad
 
 # Configuración del mensaje
 EMAIL_FROM_NAME = "Curso CMD y PowerShell"
@@ -56,15 +59,15 @@ EMAIL_TEMPLATE = """
         
         <div style="text-align: center; margin: 30px 0;">
             <p><strong>Daniel Mardones</strong><br>
-            Instructor del Curso<br>
-            Especialista en Python y Administración de Sistemas</p>
+            Desarrollador del Curso<br>
+            Especialista en Python</p>
         </div>
         
         <hr style="border: none; border-top: 1px solid #eee; margin: 30px 0;">
         
         <p style="font-size: 12px; color: #666; text-align: center;">
             Este certificado fue generado automáticamente por el sistema del Curso Interactivo de Consolas Windows.<br>
-            Si tienes alguna pregunta, no dudes en contactarnos.
+            Si tienes alguna pregunta, no dudes en contactarme.
         </p>
     </div>
 </body>
