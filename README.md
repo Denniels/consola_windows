@@ -9,49 +9,47 @@ Bienvenido al curso interactivo que te llevará desde cero hasta dominar las dos
 ```text
 consola_windows/
 │
-├── streamlit_app/               # Interfaz principal del curso
-│   ├── app.py                  # Aplicación principal de Streamlit
-│   ├── pages/                   # Módulos individuales del curso
-│   │   ├── 01_intro.py
-│   │   ├── 02_cmd_basics.py
-│   │   ├── 03_powershell_basics.py
-│   │   ├── 04_intermediate_cmd.py
-│   │   ├── 05_intermediate_ps.py
-│   │   ├── 06_advanced_cmd.py
-│   │   ├── 07_advanced_ps.py
-│   │   ├── 08_evaluations.py
-│   │   └── 09_summary.py
-│   ├── components/              # Componentes modulares reutilizables
-│   │   ├── ui_components.py    # Componente principal y hub de imports (180 líneas)
-│   │   ├── quiz_components.py  # Componentes de quiz y práctica interactiva (234 líneas)
-│   │   ├── console_components.py # Simulador de consolas CMD y PowerShell (156 líneas)
-│   │   └── ui_helpers.py       # Funciones auxiliares y elementos UI (211 líneas)
-│   ├── assets/                  # Imágenes, íconos y recursos visuales
-│   ├── css/                    # Estilos personalizados para la app
-│   │   ├── main.css            # Estilos globales (fuentes, colores, banners)
-│   │   ├── console_cmd.css     # Estilos auténticos CMD (negro, plata, Consolas 12px)
-│   │   ├── console_ps.css      # Estilos auténticos PowerShell (azul, blanco, Consolas 12px)
-│   │   ├── console_fonts.css   # Fuentes monoespaciadas y fallbacks web
-│   │   └── antitranslation.css # Protección contra traducción automática
-│   └── utils/                  # Funciones auxiliares del sistema
-│       ├── command_parser.py   # Parser de comandos CMD y PowerShell
-│       ├── progress_tracker.py # Sistema de seguimiento de progreso
-│       └── user_manager.py     # Gestión de usuarios y autenticación
+├── streamlit_app/                    # Interfaz principal del curso
+│   ├── app.py                        # Aplicación principal de Streamlit
+│   ├── pages/                        # Módulos individuales del curso
+│   │   ├── 01_intro.py               # Introducción a las consolas
+│   │   ├── 02_cmd_basics.py          # Fundamentos de CMD
+│   │   ├── 03_powershell_basics.py   # Fundamentos de PowerShell
+│   │   ├── 04_intermediate_cmd.py    # CMD Intermedio
+│   │   ├── 05_intermediate_ps.py     # PowerShell Intermedio
+│   │   ├── 06_advanced_cmd.py        # CMD Avanzado
+│   │   ├── 07_advanced_ps.py         # PowerShell Avanzado
+│   │   ├── 08_evaluations.py         # Evaluaciones
+│   │   └── 09_summary.py             # Resumen
+│   ├── components/                   # Componentes modulares reutilizables
+│   │   ├── ui_components.py          # Componente principal y hub de imports (180 líneas)
+│   │   ├── quiz_components.py        # Componentes de quiz y práctica interactiva (234 líneas)
+│   │   ├── console_components.py     # Simulador de consolas CMD y PowerShell (156 líneas)
+│   │   └── ui_helpers.py             # Funciones auxiliares y elementos UI (211 líneas)
+│   ├── assets/                       # Imágenes, íconos y recursos visuales
+│   ├── css/                          # Estilos personalizados para la app
+│   │   ├── main.css                  # Estilos globales (fuentes, colores, banners)
+│   │   ├── console_cmd.css           # Estilos auténticos CMD (negro, plata, Consolas 12px)
+│   │   ├── console_ps.css            # Estilos auténticos PowerShell (azul, blanco, Consolas 12px)
+│   │   ├── console_fonts.css         # Fuentes monoespaciadas y fallbacks web
+│   │   └── antitranslation.css       # Protección contra traducción automática
+│   └── utils/                        # Funciones auxiliares del sistema
+│       ├── command_parser.py         # Parser de comandos CMD y PowerShell
+│       ├── progress_tracker.py       # Sistema de seguimiento de progreso
+│       └── user_manager.py           # Gestión de usuarios y autenticación
 │
-├── data/                       # Datos de usuario, progreso y evaluaciones
-│   ├── users.json             # Base de datos de usuarios registrados
-│   └── progress_tracker.json  # Seguimiento de progreso por usuario
+├── data/                             # Datos de usuario, progreso y evaluaciones
+│   ├── users.json                    # Base de datos de usuarios registrados
+│   └── progress_tracker.json         # Seguimiento de progreso por usuario
 │
-├── docs/                       # Documentación técnica y pedagógica
-│   └── resumen.md              # Resumen visual del curso completo
+├── docs/                             # Documentación técnica y pedagógica
+│   └── resumen.md                    # Resumen visual del curso completo
 │
-├── requirements.txt            # Dependencias del proyecto
-├── README.md                   # Este archivo de documentación
-└── run.py                      # Script principal para lanzar la app
+│├── test/                            # Pruebas unitarias y de integración
+│   └── test_progress.py              # Pruebas del sistema de seguimiento de progreso
+├── requirements.txt                  # Dependencias del proyecto
+└── README.md                         # Este archivo de documentación
 ```
-
----
-
 ## 🏗️ Arquitectura Modular
 
 ### 📦 Componentes Principales
@@ -167,11 +165,11 @@ cd consola_windows
 ### (Opcional) Crear entorno virtual en local
 ```bash
 # En Windows (CMD o PowerShell):
-python -m venv consola_windows
+python -m venv .consola_windows
 consola_windows\Scripts\activate
 # En Linux/macOS:
-python3 -m venv consola_windows
-source consola_windows/bin/activate
+python3 -m venv .consola_windows
+source .consola_windows/bin/activate
 ```
 ✅ Una vez activado, verás el nombre del entorno en tu terminal. Esto asegura que todas las dependencias se instalen de forma aislada.
 
@@ -339,17 +337,17 @@ Cada módulo incluye:
 
 ### 📚 Contenido del Curso
 
-| Módulo | Tema | Consola | Nivel |
-|--------|-------------------------------|----------|-------------|
-| 01     | Introducción a las Consolas   | Ambas    | Principiante|
-| 02     | Comandos Básicos en CMD       | CMD      | Principiante|
-| 03     | Comandos Básicos en PowerShell| PowerShell| Principiante|
-| 04     | Scripts y Variables           | CMD      | Intermedio  |
-| 05     | Pipes, Objetos y Funciones    | PowerShell| Intermedio  |
-| 06     | Automatización y Tareas Prog. | CMD      | Avanzado    |
-| 07     | Administración del Sistema    | PowerShell| Avanzado    |
-| 08     | Evaluaciones Interactivas     | Ambas    | Todos       |
-| 09     | Recursos y Siguientes Pasos   | -        | -           |
+| Módulo |             Tema              |  Consola  |     Nivel    |
+|--------|-------------------------------|-----------|--------------|
+| 01     | Introducción a las Consolas   | Ambas     | Principiante |
+| 02     | Comandos Básicos en CMD       | CMD       | Principiante |
+| 03     | Comandos Básicos en PowerShell| PowerShell| Principiante |
+| 04     | Scripts y Variables           | CMD       | Intermedio   |
+| 05     | Pipes, Objetos y Funciones    | PowerShell| Intermedio   |
+| 06     | Automatización y Tareas Prog. | CMD       | Avanzado     |
+| 07     | Administración del Sistema    | PowerShell| Avanzado     |
+| 08     | Evaluaciones Interactivas     | Ambas     | Todos        |
+| 09     | Recursos y Siguientes Pasos   | -         | -            |
 
 ### 🧩 Evaluaciones
 
