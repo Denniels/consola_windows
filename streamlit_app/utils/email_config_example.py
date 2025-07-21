@@ -56,7 +56,7 @@ EMAIL_TEMPLATE = """
         
         <div style="text-align: center; margin: 30px 0;">
             <p><strong>Daniel Mardones</strong><br>
-            Instructor del Curso<br>
+            Desarrollador del Curso<br>
             Especialista en Python y Administración de Sistemas</p>
         </div>
         

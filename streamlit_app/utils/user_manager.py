@@ -154,9 +154,9 @@ class CertificateGenerator:
         current_date = datetime.now().strftime("%d de %B de %Y")
         c.drawCentredString(self.page_width / 2, self.page_height - 365, f"Fecha: {current_date}")
         
-        # Instructor
+        # Desarrollador
         c.setFont("Helvetica-Bold", 14)
-        c.drawCentredString(self.page_width / 2, self.page_height - 400, "Instructor: Daniel Mardones")
+        c.drawCentredString(self.page_width / 2, self.page_height - 400, "Desarrollador: Daniel Mardones")
         
         # Credencial
         c.setFillColor(secondary_color)
@@ -233,7 +233,7 @@ class EmailSender:
                         <div style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #e5e5e5;">
                             <p style="color: #666; font-size: 14px; margin: 0;">
                                 <strong>Daniel Mardones</strong><br>
-                                Instructor del curso<br>
+                                Desarrollador del curso<br>
                                 📧 Especialista en Python y Automatización
                             </p>
                         </div>
