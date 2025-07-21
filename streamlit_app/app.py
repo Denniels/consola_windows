@@ -13,6 +13,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), 'components'))
 
 from progress_tracker import ProgressTracker, NavigationHelper, create_section_header
 from ui_components import ProgressCard
+from user_manager import UserManager, check_user_registration
 
 def load_css():
     """Carga los estilos CSS personalizados"""
@@ -106,6 +107,10 @@ def initialize_session_state():
     
     if 'current_page' not in st.session_state:
         st.session_state.current_page = "01_intro"
+    
+    # Inicializar UserManager
+    if 'user_manager' not in st.session_state:
+        st.session_state.user_manager = UserManager()
 
 def load_page_module(page_name: str):
     """Carga dinámicamente un módulo de página"""
@@ -198,6 +203,10 @@ def run_app():
     
     # Inicializar estado de sesión
     initialize_session_state()
+    
+    # Verificar si el usuario está registrado, si no mostrar formulario
+    if not check_user_registration():
+        st.stop()  # Detener ejecución hasta que se registre
     
     # Crear navegación en la barra lateral
     st.session_state.navigation_helper.create_navigation_menu(

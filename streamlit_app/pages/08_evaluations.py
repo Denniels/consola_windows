@@ -5,6 +5,7 @@ Módulo 08: Evaluaciones Interactivas
 import streamlit as st
 import sys
 import os
+from datetime import datetime
 
 # Agregar paths necesarios
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'utils'))
@@ -14,6 +15,7 @@ from progress_tracker import create_section_header, create_info_card
 from ui_components import (
     QuizComponent, ProgressCard, create_learning_objective_card, create_tip_card
 )
+from user_manager import CertificateGenerator, EmailSender
 
 def render_page():
     """Renderiza la página de evaluaciones"""
@@ -133,7 +135,7 @@ def render_cmd_quiz():
 
     quiz = QuizComponent(cmd_questions)
     
-    if quiz.render(key_suffix="cmd_advanced_quiz"):
+    if quiz.render(key_suffix="evaluation_cmd_advanced"):
         if 'progress_tracker' in st.session_state:
             st.session_state.progress_tracker.add_quiz_score("cmd_advanced", quiz.score, 100)
 
@@ -181,7 +183,7 @@ def render_powershell_quiz():
 
     quiz = QuizComponent(ps_questions)
     
-    if quiz.render(key_suffix="ps_advanced_quiz"):
+    if quiz.render(key_suffix="evaluation_ps_advanced"):
         if 'progress_tracker' in st.session_state:
             st.session_state.progress_tracker.add_quiz_score("powershell_advanced", quiz.score, 100)
 
@@ -191,55 +193,235 @@ def render_certificate_section():
     st.markdown("## 🏆 Certificado de Completación")
     
     if 'progress_tracker' in st.session_state:
-        overall_progress = st.session_state.progress_tracker.calculate_overall_progress()
+        # Obtener el progreso usando el mismo método que la barra lateral
+        overall_progress = st.session_state.progress_tracker.get_overall_progress()
         
-        if overall_progress >= 70:
+        # También obtener el progreso basado en módulos completados
+        modules_progress = st.session_state.progress_tracker.calculate_overall_progress()
+        
+        # Usar el progreso más alto para ser justo con el usuario
+        final_progress = max(overall_progress, modules_progress)
+        
+        # Mostrar progreso actual
+        col1, col2 = st.columns([2, 1])
+        with col1:
+            st.progress(final_progress / 100)
+            st.caption(f"Progreso actual: {final_progress:.1f}%")
+            
+            # Mostrar información de debug
+            with st.expander("📊 Detalles del progreso", expanded=False):
+                st.write(f"**Progreso por quizzes:** {overall_progress:.1f}%")
+                st.write(f"**Progreso por módulos:** {modules_progress:.1f}%")
+                st.write(f"**Progreso final (usado):** {final_progress:.1f}%")
+        
+        with col2:
+            if final_progress >= 70:
+                st.success("✅ Elegible para certificado")
+            else:
+                remaining = 70 - final_progress
+                st.warning(f"📈 Necesitas {remaining:.1f}% más")
+        
+        # Modo de prueba para desarrolladores
+        st.markdown("---")
+        with st.expander("🔧 Modo Desarrollador (Para Pruebas)", expanded=False):
+            st.warning("⚠️ Este modo es solo para pruebas de desarrollo")
+            test_progress = st.slider("Simular progreso para prueba", 0, 100, int(final_progress), 5)
+            
+            col_test1, col_test2 = st.columns(2)
+            with col_test1:
+                test_certificate = st.button("🧪 Probar Certificado", type="secondary")
+            with col_test2:
+                force_show = st.checkbox("Forzar mostrar certificado", value=False)
+            
+            if test_certificate or force_show:
+                st.info(f"🧪 Modo de prueba activado - Simulando progreso: {test_progress}%")
+                # Usar el progreso de prueba en lugar del real
+                final_progress = test_progress
+        
+        st.markdown("---")
+        
+        if final_progress >= 70:
             st.success("🎉 ¡Felicitaciones! Has completado suficiente del curso para obtener tu certificado.")
             
-            st.markdown(f"""
-            <div style="
-                border: 3px solid #10b981;
-                border-radius: 10px;
-                padding: 2rem;
-                text-align: center;
-                background: linear-gradient(135deg, #ecfdf5, #f0fdf4);
-                margin: 2rem 0;
-            ">
-                <h2 style="color: #065f46; margin-bottom: 1rem;">
-                    🏆 CERTIFICADO DE COMPLETACIÓN
-                </h2>
-                <h3 style="color: #047857;">
-                    Curso Interactivo de Consolas Windows
-                </h3>
-                <p style="font-size: 1.2rem; color: #065f46; margin: 1rem 0;">
-                    Se certifica que el usuario ha completado exitosamente<br>
-                    el curso de <strong>CMD y PowerShell</strong>
-                </p>
-                <p style="color: #047857;">
-                    <strong>Progreso completado:</strong> {overall_progress:.1f}%<br>
-                    <strong>Fecha:</strong> {st.session_state.get('current_date', 'Hoy')}<br>
-                    <strong>Instructor:</strong> Daniel Mardones
-                </p>
-                <div style="margin-top: 2rem;">
-                    <strong style="color: #065f46;">🖥️ CMD & PowerShell Certified</strong>
-                </div>
-            </div>
-            """, unsafe_allow_html=True)
-            
-            if st.button("📄 Descargar Certificado (PDF)"):
-                st.info("🚧 Función de descarga en desarrollo. Por ahora puedes hacer captura de pantalla del certificado.")
-        
+            # Verificar si el usuario está registrado
+            if 'user_manager' in st.session_state:
+                user_id = st.session_state.progress_tracker.get_user_id()
+                user_info = st.session_state.user_manager.get_user_info(user_id)
+                
+                if user_info:
+                    # Vista previa del certificado
+                    current_date = datetime.now().strftime("%d de %B de %Y")
+                    full_name = f"{user_info['name']} {user_info['lastname']}"
+                    
+                    # Crear la vista previa del certificado usando componentes Streamlit más simples
+                    st.markdown("### 🏆 Vista Previa de tu Certificado")
+                    
+                    # Container principal del certificado - CSS muy simple
+                    st.markdown("""
+                    <div style="
+                        background: linear-gradient(45deg, #f0fdf4, #ecfdf5);
+                        border: 3px solid #059669;
+                        border-radius: 10px;
+                        padding: 30px;
+                        margin: 20px 0;
+                        text-align: center;
+                    ">
+                        <h1 style="color: #059669; margin: 10px 0;">🏆 CERTIFICADO DE COMPLETACIÓN</h1>
+                        <h2 style="color: #065f46; margin: 10px 0;">Curso Interactivo de Consolas Windows</h2>
+                        <p style="color: #374151; margin: 20px 0;">
+                            Se certifica que el usuario ha completado exitosamente<br>
+                            el curso de <strong>CMD y PowerShell</strong>
+                        </p>
+                        <div style="
+                            background: white;
+                            border: 2px solid #059669;
+                            border-radius: 8px;
+                            padding: 20px;
+                            margin: 20px auto;
+                            max-width: 400px;
+                        ">
+                            <h3 style="color: #059669; margin: 0;">{full_name}</h3>
+                        </div>
+                    </div>
+                    """.format(full_name=full_name), unsafe_allow_html=True)
+                    
+                    # Información adicional con componentes nativos
+                    col1, col2 = st.columns(2)
+                    with col1:
+                        st.metric("📊 Progreso Completado", f"{final_progress:.1f}%")
+                    with col2:
+                        st.metric("📅 Fecha de Completación", current_date)
+                    
+                    # Información del instructor
+                    st.markdown("**Instructor:** Daniel Mardones  \n💻 Especialista en Python y Administración de Sistemas")
+                    
+                    
+                    # Botones de acción
+                    st.markdown("### 🎯 Acciones disponibles")
+                    st.markdown("Descarga tu certificado en formato PDF o recíbelo directamente en tu correo electrónico:")
+                    
+                    col1, col2 = st.columns(2)
+                    
+                    with col1:
+                        if st.button("📥 Descargar Certificado", type="primary", use_container_width=True):
+                            try:
+                                with st.spinner("📄 Generando certificado PDF..."):
+                                    generator = CertificateGenerator()
+                                    certificate_pdf = generator.generate_certificate(
+                                    user_info['name'], 
+                                    user_info['lastname'], 
+                                    final_progress
+                                )
+                                
+                                if certificate_pdf:
+                                    st.success("✅ Certificado generado correctamente")
+                                    st.download_button(
+                                        label="💾 Descargar PDF",
+                                        data=certificate_pdf,
+                                        file_name=f"Certificado_Consolas_Windows_{user_info['name']}_{user_info['lastname']}.pdf",
+                                        mime="application/pdf",
+                                        use_container_width=True,
+                                        key="download_cert_btn"
+                                    )
+                                else:
+                                    st.error("❌ Error: No se pudo generar el certificado")
+                                
+                            except ImportError as e:
+                                st.error("❌ Error: Falta la librería ReportLab. Instálala con: pip install reportlab")
+                                st.code("pip install reportlab")
+                            except Exception as e:
+                                st.error(f"❌ Error generando certificado: {str(e)}")
+                                st.info("💡 Intenta actualizar la página y volver a intentar")
+                                
+                                # Mostrar información de debug
+                                with st.expander("🔍 Información de Debug"):
+                                    st.code(f"""
+Tipo de error: {type(e).__name__}
+Mensaje: {str(e)}
+Usuario: {user_info['name']} {user_info['lastname']}
+Progreso: {final_progress}%
+                                    """)
+                    
+                    with col2:
+                        if st.button("📧 Enviar por Correo", type="secondary", use_container_width=True):
+                            try:
+                                # Generar certificado
+                                generator = CertificateGenerator()
+                                certificate_pdf = generator.generate_certificate(
+                                    user_info['name'], 
+                                    user_info['lastname'], 
+                                    final_progress
+                                )
+                                
+                                # Configurar envío de email
+                                email_sender = EmailSender()
+                                
+                                if email_sender.is_configured():
+                                    with st.spinner("📧 Enviando certificado..."):
+                                        success = email_sender.send_certificate(
+                                            user_info['email'],
+                                            f"{user_info['name']} {user_info['lastname']}",
+                                            certificate_pdf
+                                        )
+                                    
+                                    if success:
+                                        st.success(f"✅ ¡Certificado enviado a {user_info['email']}!")
+                                        
+                                        # Registrar envío
+                                        if "certificates_sent" not in user_info:
+                                            user_info["certificates_sent"] = []
+                                        user_info["certificates_sent"].append({
+                                            "date": datetime.now().isoformat(),
+                                            "progress": overall_progress
+                                        })
+                                        st.session_state.user_manager._save_users_data()
+                                    else:
+                                        st.error("❌ Error enviando el certificado. Intenta más tarde.")
+                                else:
+                                    st.warning("""
+                                    ⚠️ El servicio de correo no está configurado.
+                                    
+                                    Para configurar el envío automático de certificados:
+                                    1. Configura las variables de entorno SMTP_EMAIL y SMTP_PASSWORD
+                                    2. Usa una contraseña de aplicación de Gmail
+                                    """)
+                                
+                            except Exception as e:
+                                st.error(f"Error enviando certificado: {e}")
+                    
+                    # Información adicional
+                    st.markdown("---")
+                    st.markdown("""
+                    ### 📋 Información del Certificado
+                    
+                    Tu certificado incluye:
+                    - ✅ Tu nombre completo
+                    - ✅ Fecha de completación
+                    - ✅ Porcentaje de progreso alcanzado
+                    - ✅ Firma del instructor
+                    - ✅ Validación oficial del curso
+                    
+                    💡 **Consejo:** Agrega este certificado a tu perfil de LinkedIn o CV para demostrar tus habilidades en administración de sistemas Windows.
+                    """)
+                    
+                else:
+                    st.error("❌ Error: No se encontró información del usuario. Por favor, reinicia la aplicación.")
+            else:
+                st.error("❌ Error: Sistema de usuarios no inicializado.")
         else:
-            st.warning(f"Necesitas completar al menos 70% del curso para obtener el certificado. Tu progreso actual: {overall_progress:.1f}%")
+            st.info(f"""
+            📚 **Para obtener tu certificado necesitas completar al menos 70% del curso.**
             
-            create_tip_card(
-                "📚 ¿Cómo obtener el certificado?",
-                "Completa los módulos de teoría, realiza las prácticas y aprueba los quizzes para alcanzar el 70% de progreso necesario.",
-                "info"
-            )
-    
+            **Tu progreso actual:** {overall_progress:.1f}%
+            **Te falta:** {70 - overall_progress:.1f}%
+            
+            **Sugerencias para mejorar tu progreso:**
+            - Completa todos los quizzes con al menos 70% de acierto
+            - Revisa los módulos que no has visitado
+            - Practica con los ejercicios interactivos
+            """)
     else:
-        st.error("No se pudo cargar el progreso del usuario.")
+        st.error("❌ Sistema de progreso no disponible")
 
 if __name__ == "__main__":
     render_page()

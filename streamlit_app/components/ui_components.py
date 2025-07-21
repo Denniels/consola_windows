@@ -3,6 +3,7 @@ Componentes reutilizables para la interfaz de usuario
 """
 
 import streamlit as st
+import pandas as pd
 import sys
 import os
 from typing import List, Dict, Optional, Callable
@@ -255,11 +256,14 @@ class QuizComponent:
         # Session state management
         question_key = f"quiz_current_{key_suffix}"
         answer_key = f"quiz_answer_{key_suffix}"
+        completed_key = f"quiz_completed_{key_suffix}"
         
         if question_key not in st.session_state:
             st.session_state[question_key] = 0
         if answer_key not in st.session_state:
             st.session_state[answer_key] = {}
+        if completed_key not in st.session_state:
+            st.session_state[completed_key] = False
         
         current_question = st.session_state[question_key]
         
@@ -339,11 +343,94 @@ class QuizComponent:
         
         # Verificar si quiz está completo y calcular puntuación
         quiz_complete = len(st.session_state[answer_key]) == len(self.questions)
-        if quiz_complete:
+        if quiz_complete and not st.session_state[completed_key]:
             # Calcular puntuación final
-            self.calculate_score(st.session_state[answer_key], key_suffix)
+            score = self.calculate_score(st.session_state[answer_key], key_suffix)
+            
+            # Guardar en el progress tracker
+            if hasattr(st.session_state, 'progress_tracker'):
+                # Determinar el módulo basado en el key_suffix
+                module_id = self._get_module_from_suffix(key_suffix)
+                
+                st.session_state.progress_tracker.add_quiz_score(
+                    module_id, 
+                    score, 
+                    100  # máximo score
+                )
+                
+                # Marcar el módulo como completado si el score es >= 70%
+                if score >= 70:
+                    st.session_state.progress_tracker.update_module_progress(
+                        module_id, 
+                        "quiz_completed"
+                    )
+                
+                # Mostrar mensaje de éxito con información de guardado
+                with st.expander("📊 Información de Progreso", expanded=False):
+                    st.success(f"✅ Quiz guardado: {module_id} ({score}%)")
+                    progress = st.session_state.progress_tracker.get_overall_progress()
+                    st.info(f"📈 Progreso actualizado: {progress:.1f}%")
+                    
+                    completed_modules, total_modules = st.session_state.progress_tracker.get_completed_modules_count()
+                    st.info(f"📚 Módulos completados: {completed_modules}/{total_modules}")
+                    
+                    quizzes_completed = st.session_state.progress_tracker.get_completed_quizzes_count()
+                    st.info(f"🎯 Evaluaciones completadas: {quizzes_completed}")
+            
+            # Marcar como completado para evitar guardado múltiple
+            st.session_state[completed_key] = True
+            
+            # Mostrar resultado final
+            st.balloons()
+            if score >= 70:
+                st.success(f"🎉 ¡Felicitaciones! Has completado el quiz con {score}% de acierto.")
+            else:
+                st.warning(f"Has obtenido {score}% de acierto. Te recomendamos revisar el material y volver a intentar.")
         
         return quiz_complete
+    
+    def _get_module_from_suffix(self, key_suffix: str) -> str:
+        """Determina el módulo basado en el key_suffix"""
+        if "cmd_basics" in key_suffix:
+            return "02_cmd_basics"
+        elif "ps_basics" in key_suffix:
+            return "03_powershell_basics"
+        elif "cmd_intermediate" in key_suffix:
+            return "04_intermediate_cmd"
+        elif "ps_intermediate" in key_suffix:
+            return "05_intermediate_ps"
+        elif "cmd_advanced" in key_suffix:
+            return "06_advanced_cmd"
+        elif "ps_advanced" in key_suffix:
+            return "07_advanced_ps"
+        elif "general_eval" in key_suffix:
+            return "08_evaluations"
+        elif "evaluation_cmd_advanced" in key_suffix:
+            return "08_evaluations_cmd"
+        elif "evaluation_ps_advanced" in key_suffix:
+            return "08_evaluations_ps"
+        # Mantener compatibilidad con nombres anteriores
+        elif "basico" in key_suffix:
+            return "basico"
+        elif "intermedio" in key_suffix:
+            return "intermedio" 
+        elif "avanzado" in key_suffix:
+            return "avanzado"
+        elif "archivos" in key_suffix:
+            return "archivos"
+        elif "redes" in key_suffix:
+            return "redes"
+        elif "seguridad" in key_suffix:
+            return "seguridad"
+        elif "automatizacion" in key_suffix:
+            return "automatizacion"
+        elif "administracion" in key_suffix:
+            return "administracion"
+        elif "personalizacion" in key_suffix:
+            return "personalizacion"
+        else:
+            # Si no se puede determinar, usar el key_suffix como está
+            return key_suffix
 
 class CommandPracticeComponent:
     """Componente para práctica de comandos con simuladores consistentes"""
@@ -485,7 +572,6 @@ def create_code_example(title: str, code: str, language: str = "bash", explanati
 
 def create_comparison_table(cmd_data: List[str], ps_data: List[str], headers: List[str]):
     """Crea una tabla de comparación entre CMD y PowerShell"""
-    import pandas as pd
     
     df = pd.DataFrame({
         headers[0]: cmd_data,
@@ -550,17 +636,16 @@ class ProgressCard:
             col1, col2, col3 = st.columns(3)
             
             with col1:
-                # Contar módulos con al menos una sección completada
-                completed_modules = len([m for m in self.progress_tracker.module_progress.values() if len(m) > 0])
-                total_modules = len(self.progress_tracker.module_progress)
+                # Usar el nuevo método para obtener módulos completados
+                completed_modules, total_modules = self.progress_tracker.get_completed_modules_count()
                 st.metric("Módulos completados", f"{completed_modules}/{total_modules}")
             
             with col2:
-                commands_practiced = len(self.progress_tracker.command_history)
+                commands_practiced = self.progress_tracker.get_commands_practiced_count()
                 st.metric("Comandos practicados", commands_practiced)
             
             with col3:
-                quizzes_completed = len(self.progress_tracker.quiz_scores)
+                quizzes_completed = self.progress_tracker.get_completed_quizzes_count()
                 st.metric("Evaluaciones completadas", quizzes_completed)
         else:
             st.info("Progreso no disponible")
@@ -625,3 +710,129 @@ def render_command_option(option_text: str, option_letter: str) -> None:
     </div>
     """
     st.markdown(protected_html, unsafe_allow_html=True)
+
+def create_command_reference_table(title: str, commands_data: dict):
+    """
+    Crea una tabla de referencia de comandos con protección anti-traducción robusta
+    
+    Args:
+        title: Título de la tabla
+        commands_data: Diccionario con los datos de los comandos
+    """
+    st.markdown(f"### {title}")
+    
+    # CSS específico para proteger comandos en tablas
+    st.markdown("""
+    <style>
+    .command-ref-container {
+        background-color: #f8f9fa;
+        border-radius: 8px;
+        padding: 16px;
+        margin: 16px 0;
+    }
+    
+    .command-row {
+        display: flex;
+        align-items: center;
+        padding: 8px 0;
+        border-bottom: 1px solid #dee2e6;
+    }
+    
+    .command-col {
+        flex: 1;
+        padding: 0 8px;
+    }
+    
+    .command-code {
+        translate: no !important;
+        -webkit-translate: no !important;
+        font-family: 'Consolas', 'Courier New', monospace !important;
+        background-color: #e9ecef !important;
+        padding: 4px 8px !important;
+        border-radius: 4px !important;
+        font-size: 13px !important;
+        color: #495057 !important;
+        display: inline-block !important;
+    }
+    </style>
+    """, unsafe_allow_html=True)
+    
+    # Detectar las columnas disponibles dinámicamente
+    available_keys = list(commands_data.keys())
+    
+    # Identificar la columna principal (comando/parámetro/verbo)
+    main_key = None
+    for key in ["Comando", "Parámetro", "Verbo", "Cmdlet", "Símbolo"]:
+        if key in available_keys:
+            main_key = key
+            break
+    
+    if not main_key:
+        # Si no encuentra ninguna clave conocida, usar la primera disponible
+        main_key = available_keys[0]
+    
+    # Identificar la columna de descripción
+    desc_key = None
+    for key in ["Función", "Descripción", "Propósito", "Significado"]:
+        if key in available_keys:
+            desc_key = key
+            break
+    
+    # Identificar columna adicional (ejemplo/alias)
+    extra_key = None
+    for key in ["Ejemplo", "Alias Comunes"]:
+        if key in available_keys:
+            extra_key = key
+            break
+    
+    # Crear contenedor con protección
+    html_content = '<div class="command-ref-container" translate="no" data-translate="no">'
+    
+    # Header
+    html_content += f'''
+    <div class="command-row" style="font-weight: bold; background-color: #e9ecef; border-bottom: 2px solid #dee2e6;">
+        <div class="command-col">{main_key}</div>
+    '''
+    
+    if desc_key:
+        html_content += f'<div class="command-col">{desc_key}</div>'
+    
+    if extra_key:
+        html_content += f'<div class="command-col">{extra_key}</div>'
+    
+    html_content += '</div>'
+    
+    # Filas de datos
+    num_entries = len(commands_data[main_key])
+    
+    for i in range(num_entries):
+        html_content += '<div class="command-row">'
+        
+        # Columna principal con protección
+        main_value = commands_data[main_key][i]
+        html_content += f'''
+        <div class="command-col">
+            <code class="command-code" translate="no" data-translate="no">{main_value}</code>
+        </div>
+        '''
+        
+        # Descripción
+        if desc_key:
+            desc_value = commands_data[desc_key][i]
+            html_content += f'<div class="command-col">{desc_value}</div>'
+        
+        # Ejemplo o Alias si existe
+        if extra_key:
+            extra_value = commands_data[extra_key][i]
+            html_content += f'''
+            <div class="command-col">
+                <code class="command-code" translate="no" data-translate="no">{extra_value}</code>
+            </div>
+            '''
+        
+        html_content += '</div>'
+    
+    html_content += '</div>'
+    
+    # Renderizar el HTML
+    st.markdown(html_content, unsafe_allow_html=True)

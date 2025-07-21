@@ -13,7 +13,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'components'))
 from progress_tracker import create_section_header, create_info_card
 from ui_components import (
     ConsoleSimulator, QuizComponent, CommandPracticeComponent,
-    create_learning_objective_card, create_tip_card
+    create_learning_objective_card, create_tip_card, create_command_reference_table
 )
 
 def render_page():
@@ -391,24 +391,8 @@ def render_reference_section():
         ]
     }
     
-    # Protección anti-traducción para cmdlets
-    st.markdown("""
-    <style>
-    .stTable, .dataframe {
-        translate: no !important;
-        -webkit-translate: no !important;
-    }
-    .stTable code, .dataframe code, .stTable td, .dataframe td {
-        translate: no !important;
-        -webkit-translate: no !important;
-        font-family: 'Consolas', 'Courier New', monospace !important;
-    }
-    </style>
-    """, unsafe_allow_html=True)
-    
-    st.markdown('<div translate="no" data-translate="no">', unsafe_allow_html=True)
-    st.table(cmdlets_data)
-    st.markdown('</div>', unsafe_allow_html=True)
+    # Usar la nueva función de referencia protegida
+    create_command_reference_table("📋 Cmdlets Básicos de PowerShell", cmdlets_data)
     
     st.markdown("---")
     st.markdown("### 🔍 Parámetros Comunes")
@@ -433,9 +417,8 @@ def render_reference_section():
         ]
     }
     
-    st.markdown('<div translate="no" data-translate="no">', unsafe_allow_html=True)
-    st.table(parameters_data)
-    st.markdown('</div>', unsafe_allow_html=True)
+    # Usar la función protegida para la tabla de parámetros
+    create_command_reference_table("🔍 Parámetros Comunes", parameters_data)
     
     st.markdown("---")
     st.markdown("### 🎯 Verbos Más Comunes en PowerShell")
@@ -454,9 +437,8 @@ def render_reference_section():
                 "Detener procesos/servicios"
             ]
         }
-        st.markdown('<div translate="no" data-translate="no">', unsafe_allow_html=True)
-        st.table(verbs_data)
-        st.markdown('</div>', unsafe_allow_html=True)
+        # Usar la función protegida para la tabla de verbos
+        create_command_reference_table("🎯 Verbos Más Comunes en PowerShell", verbs_data)
     
     with col2:
         create_tip_card(

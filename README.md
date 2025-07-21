@@ -81,7 +81,7 @@ source consola_windows/bin/activate
 pip install -r requirements.txt
 
 # 4. Ejecuta la app
-streamlit run run.py
+streamlit run \streamlit_app\app.py
 ```
 
 ---

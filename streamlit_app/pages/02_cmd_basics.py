@@ -13,7 +13,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'components'))
 from progress_tracker import create_section_header, create_info_card
 from ui_components import (
     ConsoleSimulator, QuizComponent, CommandPracticeComponent,
-    create_learning_objective_card, create_tip_card
+    create_learning_objective_card, create_tip_card, create_command_reference_table
 )
 
 def render_page():
@@ -355,7 +355,8 @@ def render_reference_section():
     </style>
     """, unsafe_allow_html=True)
     
-    st.table(commands_data)
+    # Usar la nueva función de referencia protegida
+    create_command_reference_table("📋 Comandos Básicos de CMD", commands_data)
     
     st.markdown("---")
     st.markdown("### 🔍 Caracteres Especiales y Comodines")
@@ -380,16 +381,8 @@ def render_reference_section():
         ]
     }
     
-    # Aplicar la misma protección anti-traducción
-    st.markdown("""
-    <div translate="no" data-translate="no">
-    """, unsafe_allow_html=True)
-    
-    st.table(wildcards_data)
-    
-    st.markdown("""
-    </div>
-    """, unsafe_allow_html=True)
+    # Usar la función protegida para la tabla de comodines
+    create_command_reference_table("🔍 Caracteres Especiales y Comodines", wildcards_data)
     
     create_tip_card(
         "📚 ¿Quieres saber más?",
