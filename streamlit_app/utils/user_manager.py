@@ -126,48 +126,48 @@ class CertificateGenerator:
         # Título principal
         c.setFillColor(primary_color)
         c.setFont("Helvetica-Bold", 32)
-        c.drawCentredText(self.page_width / 2, self.page_height - 120, "🏆 CERTIFICADO DE COMPLETACIÓN")
+        c.drawCentredString(self.page_width / 2, self.page_height - 120, "🏆 CERTIFICADO DE COMPLETACIÓN")
         
         # Subtítulo
         c.setFillColor(secondary_color)
         c.setFont("Helvetica-Bold", 24)
-        c.drawCentredText(self.page_width / 2, self.page_height - 170, "Curso Interactivo de Consolas Windows")
+        c.drawCentredString(self.page_width / 2, self.page_height - 170, "Curso Interactivo de Consolas Windows")
         
         # Texto de certificación
         c.setFillColor(text_color)
         c.setFont("Helvetica", 16)
-        c.drawCentredText(self.page_width / 2, self.page_height - 220, "Se certifica que el usuario ha completado exitosamente")
-        c.drawCentredText(self.page_width / 2, self.page_height - 245, "el curso de CMD y PowerShell")
+        c.drawCentredString(self.page_width / 2, self.page_height - 220, "Se certifica que el usuario ha completado exitosamente")
+        c.drawCentredString(self.page_width / 2, self.page_height - 245, "el curso de CMD y PowerShell")
         
         # Nombre del usuario (destacado)
         c.setFillColor(primary_color)
         c.setFont("Helvetica-Bold", 28)
         full_name = f"{user_name} {user_lastname}"
-        c.drawCentredText(self.page_width / 2, self.page_height - 300, full_name)
+        c.drawCentredString(self.page_width / 2, self.page_height - 300, full_name)
         
         # Información del progreso
         c.setFillColor(text_color)
         c.setFont("Helvetica", 14)
-        c.drawCentredText(self.page_width / 2, self.page_height - 340, f"Progreso completado: {progress:.1f}%")
+        c.drawCentredString(self.page_width / 2, self.page_height - 340, f"Progreso completado: {progress:.1f}%")
         
         # Fecha
         current_date = datetime.now().strftime("%d de %B de %Y")
-        c.drawCentredText(self.page_width / 2, self.page_height - 365, f"Fecha: {current_date}")
+        c.drawCentredString(self.page_width / 2, self.page_height - 365, f"Fecha: {current_date}")
         
         # Instructor
         c.setFont("Helvetica-Bold", 14)
-        c.drawCentredText(self.page_width / 2, self.page_height - 400, "Instructor: Daniel Mardones")
+        c.drawCentredString(self.page_width / 2, self.page_height - 400, "Instructor: Daniel Mardones")
         
         # Credencial
         c.setFillColor(secondary_color)
         c.setFont("Helvetica", 12)
-        c.drawCentredText(self.page_width / 2, self.page_height - 430, "💻 Certificado en CMD y PowerShell")
+        c.drawCentredString(self.page_width / 2, self.page_height - 430, "💻 Certificado en CMD y PowerShell")
         
         # Pie de página
         c.setFillColor(HexColor('#6b7280'))
         c.setFont("Helvetica", 10)
-        c.drawCentredText(self.page_width / 2, 80, "Curso Interactivo de Consolas Windows - Desarrollado por Daniel Mardones")
-        c.drawCentredText(self.page_width / 2, 65, "📚 Especialista en Python y Automatización")
+        c.drawCentredString(self.page_width / 2, 80, "Curso Interactivo de Consolas Windows - Desarrollado por Daniel Mardones")
+        c.drawCentredString(self.page_width / 2, 65, "📚 Especialista en Python y Automatización")
         
         c.save()
         buffer.seek(0)
